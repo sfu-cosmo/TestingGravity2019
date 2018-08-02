@@ -9,7 +9,7 @@
 	<key>createOfflineApplicationCache</key>
 	<false/>
 	<key>currentSceneContainer</key>
-	<string>55</string>
+	<string>34</string>
 	<key>customExportSlices</key>
 	<array>
 		<dict>
@@ -48,8 +48,8 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierPosition</string>
 		<string>kPropertiesMenuItemIdentifierAnimated</string>
+		<string>kPropertiesMenuItemIdentifierPosition</string>
 	</array>
 	<key>documentVersion</key>
 	<string>574</string>
@@ -175,15 +175,15 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<false/>
 	<key>lastCheckDate</key>
-	<date>2018-08-02T21:33:35Z</date>
+	<date>2018-08-02T22:49:13Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>2</integer>
+		<integer>0</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1280, 700}}</string>
+			<string>{{0, 0}, {2048, 1052}}</string>
 			<key>identifier</key>
 			<string>container 37</string>
 			<key>isCustomizableViewContainer</key>
@@ -196,7 +196,7 @@
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {1009, 700}}</string>
+					<string>{{0, 0}, {1777, 1052}}</string>
 					<key>identifier</key>
 					<string>container 46</string>
 					<key>isCustomizableViewContainer</key>
@@ -209,7 +209,7 @@
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {135, 700}}</string>
+							<string>{{0, 0}, {135, 1052}}</string>
 							<key>identifier</key>
 							<string>container 41</string>
 							<key>isCustomizableViewContainer</key>
@@ -222,7 +222,7 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {135, 700}}</string>
+									<string>{{0, 0}, {135, 1052}}</string>
 									<key>identifier</key>
 									<string>sceneSelectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -232,7 +232,7 @@
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{136, 0}, {873, 700}}</string>
+							<string>{{136, 0}, {1641, 1052}}</string>
 							<key>identifier</key>
 							<string>container 44</string>
 							<key>isCustomizableViewContainer</key>
@@ -245,7 +245,7 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 0}, {873, 135}}</string>
+									<string>{{136, 0}, {1641, 240}}</string>
 									<key>identifier</key>
 									<string>container 43</string>
 									<key>isCustomizableViewContainer</key>
@@ -258,7 +258,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 0}, {873, 135}}</string>
+											<string>{{136, 0}, {1641, 240}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -268,7 +268,7 @@
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 136}, {873, 564}}</string>
+									<string>{{136, 241}, {1641, 811}}</string>
 									<key>identifier</key>
 									<string>container 42</string>
 									<key>isCustomizableViewContainer</key>
@@ -281,7 +281,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 136}, {873, 564}}</string>
+											<string>{{136, 241}, {1641, 811}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -295,7 +295,7 @@
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{1010, 0}, {270, 700}}</string>
+					<string>{{1778, 0}, {270, 1052}}</string>
 					<key>identifier</key>
 					<string>container 45</string>
 					<key>isCustomizableViewContainer</key>
@@ -308,7 +308,7 @@
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{1010, 0}, {270, 700}}</string>
+							<string>{{1778, 0}, {270, 1052}}</string>
 							<key>identifier</key>
 							<string>inspectorCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -321,7 +321,7 @@
 		<key>keyframeTimelineHeight</key>
 		<real>124</real>
 		<key>mainWindowFrame</key>
-		<string>0 55 1280 722 0 0 1280 777 </string>
+		<string>-359 855 2048 1074 -359 800 2048 1129 </string>
 		<key>openTabs</key>
 		<array/>
 		<key>selectedTabIndex</key>
@@ -344,17 +344,17 @@
 	<key>minimumSupportedBrowserVersions</key>
 	<dict>
 		<key>Android</key>
-		<string>2.3</string>
+		<string>4.0</string>
 		<key>Chrome</key>
 		<string>Latest</string>
 		<key>Firefox</key>
-		<string>3.6</string>
+		<string>4.0</string>
 		<key>IE</key>
-		<string>8</string>
+		<string>9</string>
 		<key>Mobile Safari</key>
 		<string>6.1.3</string>
 		<key>Opera</key>
-		<string>12.10</string>
+		<string>15.0</string>
 		<key>Safari</key>
 		<string>5.1.3</string>
 		<key>iBooks</key>
@@ -904,7 +904,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1642, 1406}</string>
+					<string>{1641, 1406}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -929,7 +929,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>35</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 2}</string>
+					<string>{0, 0}</string>
 				</dict>
 			</array>
 		</dict>
@@ -954,7 +954,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1064, 1406}</string>
+					<string>{1642, 1406}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -979,7 +979,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>56</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 2}</string>
+					<string>{1, 3}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -1008,7 +1008,7 @@
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>3E9DBB85-5956-48E8-AC7D-B7C80622C19B-93334-00000AFD2F8EA5AE</string>
+			<string>3F1D4D98-0CF8-4247-8916-F8DFA462A7F1-3835-00000EEFAB53A43A</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -2229,27 +2229,27 @@
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>#B8C8D1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2337,15 +2337,15 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>2</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>1024px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2367,15 +2367,15 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#B8C8D1</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>15</key>
@@ -2679,9 +2679,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2775,12 +2775,6 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>1</string>
@@ -2790,6 +2784,12 @@
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>704px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2811,9 +2811,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>8</key>
@@ -4435,7 +4435,7 @@
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>3E9DBB85-5956-48E8-AC7D-B7C80622C19B-93334-00000AFD2F8EA5AE</string>
+			<string>3F1D4D98-0CF8-4247-8916-F8DFA462A7F1-3835-00000EEFAB53A43A</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -4452,9 +4452,9 @@
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>540px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4602,18 +4602,18 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>540px</string>
 						</dict>
 					</array>
 					<key>26</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1920px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4761,36 +4761,36 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1920px</string>
 						</dict>
 					</array>
 					<key>27</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#B8C8D1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4908,24 +4908,24 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#B8C8D1</string>
 						</dict>
 					</array>
 					<key>28</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>267px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5073,18 +5073,18 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>267px</string>
 						</dict>
 					</array>
 					<key>29</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1920px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5230,18 +5230,18 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1920px</string>
 						</dict>
 					</array>
 					<key>30</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>109.9px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5383,9 +5383,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>109.9px</string>
 						</dict>
 					</array>
 					<key>31</key>
@@ -5461,9 +5461,9 @@
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>640px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5611,18 +5611,18 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>640px</string>
 						</dict>
 					</array>
 					<key>33</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>293px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5770,9 +5770,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>293px</string>
 						</dict>
 					</array>
 				</dict>
@@ -5888,11 +5888,9 @@
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>3E9DBB85-5956-48E8-AC7D-B7C80622C19B-93334-00000AFD2F8EA5AE</string>
+			<string>3F1D4D98-0CF8-4247-8916-F8DFA462A7F1-3835-00000EEFAB53A43A</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>37</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -5913,9 +5911,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6003,6 +6001,7 @@
 &lt;!--
 a:link, a:visited { color: #000000 }
 a:hover, a:active { color: #FF2600 }
+ul { margin-top: 0.3em !important; }
 --&gt;
 &lt;/style&gt;
 
@@ -6038,12 +6037,6 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>1</string>
@@ -6053,6 +6046,12 @@ a:hover, a:active { color: #FF2600 }
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>472px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6074,9 +6073,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>37</key>
@@ -6164,9 +6163,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6254,6 +6253,7 @@ a:hover, a:active { color: #FF2600 }
 &lt;!--
 a:link, a:visited { color: #000000 }
 a:hover, a:active { color: #FF2600 }
+ul { margin-top: 0.3em !important; }
 --&gt;
 &lt;/style&gt;
 
@@ -6267,6 +6267,16 @@ a:hover, a:active { color: #FF2600 }
 &lt;/li&gt;&lt;li&gt;particle cosmology, dark matter
 &lt;/li&gt;&lt;li&gt;modified gravity theories
 &lt;/li&gt;&lt;li&gt;quantum gravity and emergent gravity
+&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;
+
+&lt;font face="PT Sans Caption" size="6"&gt;Review Lectures:
+&lt;/font&gt;
+&lt;font face="EB Garamond" size="4"&gt;&lt;ul&gt;
+&lt;li&gt;introduction to general relativity
+&lt;/li&gt;&lt;li&gt;binary systems and gravitational waves
+&lt;/li&gt;&lt;li&gt;neutron stars, astrophysical tests of GR
+&lt;/li&gt;&lt;li&gt;the landscape of modified gravity
+&lt;/li&gt;&lt;li&gt;cosmological tests of GR
 &lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;
 
 &lt;font face="PT Sans Caption" size="6"&gt;Conference Organizers:
@@ -6286,7 +6296,6 @@ a:hover, a:active { color: #FF2600 }
 &lt;li&gt;&lt;a href="mailto:testing-gravity-2019-announce-request@sfu.ca?&amp;amp;subject=Subscribe&amp;amp;body=To receive notifications about registration deadlines and other updates, subscribe to the conference mailing list by sending an email to testing-gravity-2019-announce-request@sfu.ca with %22subscribe%22 in the subject line."&gt;subscribe to conference news&lt;/a&gt;
 &lt;/li&gt;&lt;li&gt;&lt;a href="mailto:testing-gravity-2019@sfu.ca"&gt;contact organizing committee&lt;/a&gt;
 &lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;
-
 </string>
 						</dict>
 						<dict>
@@ -6297,15 +6306,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>472px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>472px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6327,9 +6336,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>39</key>
@@ -6653,9 +6662,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6721,7 +6730,7 @@ a:hover, a:active { color: #FF2600 }
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>162px</string>
+							<string>180px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6749,12 +6758,14 @@ a:hover, a:active { color: #FF2600 }
 &lt;!--
 a:link, a:visited { color: #000000 }
 a:hover, a:active { color: #FF2600 }
+p { margin-top: 0.3em !important; }
 --&gt;
 &lt;/style&gt;
 
-Testing Gravity 2019 is the 3rd Testing Gravity conference hosted by SFU bringing together leading experts on various ways of testing laws of Gravity. The conference will provide an opportunity for experts on different ways of testing Gravity to meet and exchange their ideas. There will be a one-day school on Wednesday, January 23rd, featuring five review lectures covering the key topics of the conference. The main conference, January 24-26, will feature invited and contributed talks, and a poster session.
+Testing Gravity 2019 will be the 3rd Testing Gravity conference hosted by SFU. Like the &lt;a href="../TestingGravity2015/"&gt;2015&lt;/a&gt; and the &lt;a href="../TestingGravity2017/"&gt;2017&lt;/a&gt; meetings, Testing Gravity 2019 will provide an opportunity for experts on different ways of testing Gravity to meet and exchange their ideas. There will be a one-day school on Wednesday, January 23rd, featuring five review lectures by some of the invited speakers covering the key topics of the conference. The main conference, January 24-26, will feature invited and contributed talks, and a poster session.
 
-Testing Gravity remains a topical theme, as there remain significant gaps in our understanding of gravity, such as reconciling gravity with quantum theory and the unexplained nature of Dark Matter and Dark Energy. The Testing Gravity conference series brings together the world's top experts - theorists, experimentalist and observers, to discuss new ways of testing General Relativity and some of the alternative gravity theories. It provides theorists working on alternative gravity theories with a realistic perspective on what aspects of their theories can be tested. On the other hand, the experimentalists and observers welcome the chance to learn about new ideas that their experiments can test. Topics include gravitational waves, table-top experiments, solar system tests, particle astrophysics and cosmology.</string>
+&lt;p&gt;
+Testing Gravity remains a topical theme, with the nature of Dark Matter and Dark Energy remaining unexplained, and with the continued search for a quantum theory of gravity. The TG conference series brings together the world's top experts - theorists, experimentalist and observers, to discuss new ways of testing General Relativity and its alternatives. It provides theorists working on alternative theories with a realistic perspective on what aspects of their theories can be tested. On the other hand, the experimentalists and observers welcome the chance to learn about new ideas that their experiments can test. Topics include gravitational waves, table-top experiments, solar system tests, particle astrophysics and cosmology.&lt;/p&gt;</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6794,9 +6805,9 @@ Testing Gravity remains a topical theme, as there remain significant gaps in our
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>41</key>
@@ -6928,7 +6939,7 @@ Testing Gravity remains a topical theme, as there remain significant gaps in our
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>392px</string>
+							<string>400px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7228,7 +7239,7 @@ Testing Gravity remains a topical theme, as there remain significant gaps in our
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>3E9DBB85-5956-48E8-AC7D-B7C80622C19B-93334-00000AFD2F8EA5AE</string>
+			<string>3F1D4D98-0CF8-4247-8916-F8DFA462A7F1-3835-00000EEFAB53A43A</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -7548,21 +7559,21 @@ Testing Gravity remains a topical theme, as there remain significant gaps in our
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7735,9 +7746,9 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>60</key>
@@ -7819,9 +7830,9 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7909,12 +7920,6 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>3</string>
@@ -7924,6 +7929,12 @@ context.stroke();
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>201px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7945,9 +7956,9 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>62</key>
@@ -8041,9 +8052,9 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8181,9 +8192,9 @@ The registration fee is $300 for regular and $150 for student participants if pa
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>64</key>
