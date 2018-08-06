@@ -48,8 +48,8 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierAnimated</string>
 		<string>kPropertiesMenuItemIdentifierPosition</string>
+		<string>kPropertiesMenuItemIdentifierAnimated</string>
 	</array>
 	<key>documentVersion</key>
 	<string>574</string>
@@ -175,15 +175,15 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<false/>
 	<key>lastCheckDate</key>
-	<date>2018-08-02T22:49:13Z</date>
+	<date>2018-08-06T06:19:42Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>0</integer>
+		<integer>5</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {2048, 1052}}</string>
+			<string>{{0, 0}, {1280, 700}}</string>
 			<key>identifier</key>
 			<string>container 37</string>
 			<key>isCustomizableViewContainer</key>
@@ -196,7 +196,7 @@
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {1777, 1052}}</string>
+					<string>{{0, 0}, {1009, 700}}</string>
 					<key>identifier</key>
 					<string>container 46</string>
 					<key>isCustomizableViewContainer</key>
@@ -209,7 +209,7 @@
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {135, 1052}}</string>
+							<string>{{0, 0}, {135, 700}}</string>
 							<key>identifier</key>
 							<string>container 41</string>
 							<key>isCustomizableViewContainer</key>
@@ -222,7 +222,7 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {135, 1052}}</string>
+									<string>{{0, 0}, {135, 700}}</string>
 									<key>identifier</key>
 									<string>sceneSelectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -232,7 +232,7 @@
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{136, 0}, {1641, 1052}}</string>
+							<string>{{136, 0}, {873, 700}}</string>
 							<key>identifier</key>
 							<string>container 44</string>
 							<key>isCustomizableViewContainer</key>
@@ -245,7 +245,7 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 0}, {1641, 240}}</string>
+									<string>{{136, 0}, {873, 135}}</string>
 									<key>identifier</key>
 									<string>container 43</string>
 									<key>isCustomizableViewContainer</key>
@@ -258,7 +258,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 0}, {1641, 240}}</string>
+											<string>{{136, 0}, {873, 135}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -268,7 +268,7 @@
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 241}, {1641, 811}}</string>
+									<string>{{136, 136}, {873, 564}}</string>
 									<key>identifier</key>
 									<string>container 42</string>
 									<key>isCustomizableViewContainer</key>
@@ -281,7 +281,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 241}, {1641, 811}}</string>
+											<string>{{136, 136}, {873, 564}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -295,7 +295,7 @@
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{1778, 0}, {270, 1052}}</string>
+					<string>{{1010, 0}, {270, 700}}</string>
 					<key>identifier</key>
 					<string>container 45</string>
 					<key>isCustomizableViewContainer</key>
@@ -308,7 +308,7 @@
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{1778, 0}, {270, 1052}}</string>
+							<string>{{1010, 0}, {270, 700}}</string>
 							<key>identifier</key>
 							<string>inspectorCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -321,7 +321,7 @@
 		<key>keyframeTimelineHeight</key>
 		<real>124</real>
 		<key>mainWindowFrame</key>
-		<string>-359 855 2048 1074 -359 800 2048 1129 </string>
+		<string>0 55 1280 722 0 0 1280 777 </string>
 		<key>openTabs</key>
 		<array/>
 		<key>selectedTabIndex</key>
@@ -365,7 +365,7 @@
 	<key>monotypeProjectID</key>
 	<string>4B6BD28D-53C2-4B28-96C3-BA28C7E18619-85016-000007272212FA83</string>
 	<key>oidCounter</key>
-	<integer>66</integer>
+	<integer>68</integer>
 	<key>pageTitle</key>
 	<string>Testing Gravity 2019</string>
 	<key>resourcesInfo</key>
@@ -394,18 +394,6 @@
 				<key>resources</key>
 				<array>
 					<string>sfu-cosmo.svg</string>
-				</array>
-			</dict>
-			<dict>
-				<key>expanded</key>
-				<true/>
-				<key>name</key>
-				<string>triumf</string>
-				<key>oid</key>
-				<string>18</string>
-				<key>resources</key>
-				<array>
-					<string>triumf.svg</string>
 				</array>
 			</dict>
 			<dict>
@@ -466,6 +454,18 @@
 				<key>resources</key>
 				<array>
 					<string>ipp.svg</string>
+				</array>
+			</dict>
+			<dict>
+				<key>expanded</key>
+				<true/>
+				<key>name</key>
+				<string>pims</string>
+				<key>oid</key>
+				<string>67</string>
+				<key>resources</key>
+				<array>
+					<string>pims.svg</string>
 				</array>
 			</dict>
 		</array>
@@ -561,57 +561,6 @@
 				AAAAEiAAAJQBAAAAAAAAEyAAAKQBAAAAAAAAICAAAOAB
 				AAAAAAAAMCAAAAwCAAAAAAAAAcAAAFQBAAAAAAAAEcAA
 				ACAAAAAAAAAAEsAAAGQBAAAAAAAAENAAAAQAAAAAAAAA
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<false/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<true/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
-				<date>2014-07-15T02:42:08Z</date>
-				<key>fileSize</key>
-				<integer>6253</integer>
-				<key>md5</key>
-				<string>5430EAA26B137250A2C8B118D04E7302</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/frolov/Desktop/Testing Gravity 2017/artwork/triumf.svg</string>
-				<key>resourceName</key>
-				<string>triumf.svg</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9vaxQDAAAAAAQQMAAAAMQ7tBcczGzGmp4qxXGvr5j1
-				EemZ2kO+FouFC1+L+V3REAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAGAAAAAQEAAGZyb2xvdgAABwAA
-				AAEBAABEZXNrdG9wABQAAAABAQAAVGVzdGluZyBHcmF2
-				aXR5IDIwMTcHAAAAAQEAAGFydHdvcmsACgAAAAEBAAB0
-				cml1bWYuc3ZnAAAYAAAAAQYAABAAAAAgAAAAMAAAAEAA
-				AABcAAAAbAAAAAgAAAAEAwAANmIGAAAAAAAIAAAABAMA
-				AHxUCwAAAAAACAAAAAQDAADPaAsAAAAAAAgAAAAEAwAA
-				57ALAAAAAAAIAAAABAMAAIq1CwAAAAAACAAAAAQDAACj
-				tQsAAAAAABgAAAABBgAAoAAAALAAAADAAAAA0AAAAOAA
-				AADwAAAACAAAAAAEAABBuXTMgAAAABgAAAABAgAAAQAA
-				AAAAAAAPAAAAAAAAAAAAAAAAAAAACAAAAAQDAAAEAAAA
-				AAAAAAQAAAADAwAA9QEAAAgAAAABCQAAZmlsZTovLy8M
-				AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAOAB4+gA
-				AAAIAAAAAAQAAEG+JmX9AAAAJAAAAAEBAAA0RUNBQjMx
-				Ri00RDY4LTMzRjktQkZCMi00NkM0RTA1QUM4NEUYAAAA
-				AQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAAB
-				AQAALwAAAAAAAAABBQAAzAAAAP7///8BAAAAAAAAABAA
-				AAAEEAAAgAAAAAAAAAAFEAAAAAEAAAAAAAAQEAAAMAEA
-				AAAAAABAEAAAIAEAAAAAAAACIAAA/AEAAAAAAAAFIAAA
-				bAEAAAAAAAAQIAAAfAEAAAAAAAARIAAAsAEAAAAAAAAS
-				IAAAkAEAAAAAAAATIAAAoAEAAAAAAAAgIAAA3AEAAAAA
-				AAAwIAAACAIAAAAAAAABwAAAUAEAAAAAAAARwAAAIAAA
-				AAAAAAASwAAAYAEAAAAAAAAQ0AAABAAAAAAAAAA=
 				</data>
 				<key>shouldAutoResize</key>
 				<true/>
@@ -879,6 +828,57 @@
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2015-03-15T05:57:47Z</date>
+				<key>fileSize</key>
+				<integer>62924</integer>
+				<key>md5</key>
+				<string>E266ACEAA71399EACE77647417FAED0D</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/frolov/Desktop/CCGRRA 16/artwork/pims.svg</string>
+				<key>resourceName</key>
+				<string>pims.svg</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9vawgDAAAAAAQQMAAAAP8Fza+vJuI/JweOStCHFIwL
+				T3Hy9FhyCM5Z/7FW98lwBAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAGAAAAAQEAAGZyb2xvdgAABwAA
+				AAEBAABEZXNrdG9wAAkAAAABAQAAQ0NHUlJBIDE2AAAA
+				BwAAAAEBAABhcnR3b3JrAAgAAAABAQAAcGltcy5zdmcY
+				AAAAAQYAABAAAAAgAAAAMAAAAEAAAABUAAAAZAAAAAgA
+				AAAEAwAANmIGAAAAAAAIAAAABAMAAHxUCwAAAAAACAAA
+				AAQDAADPaAsAAAAAAAgAAAAEAwAA0G0LAAAAAAAIAAAA
+				BAMAAKRxCwAAAAAACAAAAAQDAACycQsAAAAAABgAAAAB
+				BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAACAAAAAAE
+				AABBurVW2wAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAA
+				AAAAAAAAAAAACAAAAAQDAAAEAAAAAAAAAAQAAAADAwAA
+				9QEAAAgAAAABCQAAZmlsZTovLy8MAAAAAQEAAE1hY2lu
+				dG9zaCBIRAgAAAAEAwAAAOAB4+gAAAAIAAAAAAQAAEG+
+				JmX9AAAAJAAAAAEBAAA0RUNBQjMxRi00RDY4LTMzRjkt
+				QkZCMi00NkM0RTA1QUM4NEUYAAAAAQIAAIEAAAABAAAA
+				7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAAB
+				BQAAzAAAAP7///8BAAAAAAAAABAAAAAEEAAAdAAAAAAA
+				AAAFEAAA9AAAAAAAAAAQEAAAJAEAAAAAAABAEAAAFAEA
+				AAAAAAACIAAA8AEAAAAAAAAFIAAAYAEAAAAAAAAQIAAA
+				cAEAAAAAAAARIAAApAEAAAAAAAASIAAAhAEAAAAAAAAT
+				IAAAlAEAAAAAAAAgIAAA0AEAAAAAAAAwIAAA/AEAAAAA
+				AAABwAAARAEAAAAAAAARwAAAIAAAAAAAAAASwAAAVAEA
+				AAAAAAAQ0AAABAAAAAAAAAA=
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<false/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<true/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
 		</array>
 	</dict>
 	<key>sceneContainers</key>
@@ -904,7 +904,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1641, 1406}</string>
+					<string>{1164, 1406}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -930,6 +930,8 @@
 					<string>35</string>
 					<key>scrollViewOffset</key>
 					<string>{0, 0}</string>
+					<key>zoomFactor</key>
+					<real>0.75</real>
 				</dict>
 			</array>
 		</dict>
@@ -954,7 +956,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1642, 1406}</string>
+					<string>{1164, 1406}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -979,9 +981,11 @@
 					<key>rootSymbolControllerOid</key>
 					<string>56</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 3}</string>
+					<string>{0, 0}</string>
 					<key>userGuides</key>
 					<array/>
+					<key>zoomFactor</key>
+					<real>0.75</real>
 				</dict>
 			</array>
 		</dict>
@@ -1008,7 +1012,7 @@
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>3F1D4D98-0CF8-4247-8916-F8DFA462A7F1-3835-00000EEFAB53A43A</string>
+			<string>90F61FE5-39B7-4647-AE8C-64D31477CE36-66054-000037BF14E7392D</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -2229,27 +2233,27 @@
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#B8C8D1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2367,15 +2371,15 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#B8C8D1</string>
 						</dict>
 					</array>
 					<key>15</key>
@@ -2679,9 +2683,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2781,15 +2785,15 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>704px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>704px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2811,9 +2815,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>8</key>
@@ -4435,7 +4439,7 @@
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>3F1D4D98-0CF8-4247-8916-F8DFA462A7F1-3835-00000EEFAB53A43A</string>
+			<string>90F61FE5-39B7-4647-AE8C-64D31477CE36-66054-000037BF14E7392D</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -4452,9 +4456,9 @@
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>540px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4602,195 +4606,36 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
-							<key>objectValue</key>
-							<string>540px</string>
-						</dict>
-					</array>
-					<key>26</key>
-					<array>
-						<dict>
-							<key>identifier</key>
 							<string>TagName</string>
 							<key>objectValue</key>
 							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ConstrainProportions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Display</string>
-							<key>objectValue</key>
-							<string>inline</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Cursor</string>
-							<key>objectValue</key>
-							<string>pointer</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Image</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>6px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Parent</string>
-							<key>objectValue</key>
-							<string>31</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundRepeat</string>
-							<key>objectValue</key>
-							<string>no-repeat</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>64px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AutoresizingMask</string>
-							<key>objectValue</key>
-							<string>13</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>317px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>SizeRatio</string>
-							<key>objectValue</key>
-							<string>3.42857</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundImageResourceGroupOid</string>
-							<key>objectValue</key>
-							<string>18</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayHiddenOverride</string>
-							<key>objectValue</key>
-							<string>0</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>219px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ActionHandlerOnMouseClick</string>
-							<key>objectValue</key>
-							<dict>
-								<key>actions</key>
-								<array>
-									<dict>
-										<key>goToURL</key>
-										<string>http://www.triumf.ca</string>
-										<key>openInNewWindow</key>
-										<true/>
-										<key>type</key>
-										<integer>5</integer>
-									</dict>
-								</array>
-							</dict>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundSize</string>
-							<key>objectValue</key>
-							<string>100% 100%</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>triumf</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>OriginalHeight</string>
-							<key>objectValue</key>
-							<string>560px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>OriginalWidth</string>
-							<key>objectValue</key>
-							<string>1920px</string>
 						</dict>
 					</array>
 					<key>27</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>#B8C8D1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4878,15 +4723,15 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>1024px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4908,24 +4753,24 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#B8C8D1</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>28</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>267px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5073,18 +4918,18 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>267px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>29</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1920px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5230,18 +5075,18 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1920px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>30</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>109.9px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5383,9 +5228,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>109.9px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>31</key>
@@ -5461,9 +5306,9 @@
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>640px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5611,18 +5456,18 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>640px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>33</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>293px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5770,12 +5615,173 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+					</array>
+					<key>68</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ConstrainProportions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Display</string>
+							<key>objectValue</key>
+							<string>inline</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Cursor</string>
+							<key>objectValue</key>
+							<string>pointer</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Image</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>11px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Parent</string>
+							<key>objectValue</key>
+							<string>31</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundRepeat</string>
+							<key>objectValue</key>
+							<string>no-repeat</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>58px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundImageResourceGroupOid</string>
+							<key>objectValue</key>
+							<string>67</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>319px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>SizeRatio</string>
+							<key>objectValue</key>
+							<string>3.80669</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AccessibilityRole</string>
+							<key>objectValue</key>
+							<string>img</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AutoresizingMask</string>
+							<key>objectValue</key>
+							<string>13</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>8</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>221px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ActionHandlerOnMouseClick</string>
+							<key>objectValue</key>
+							<dict>
+								<key>actions</key>
+								<array>
+									<dict>
+										<key>goToURL</key>
+										<string>https://www.pims.math.ca/</string>
+										<key>openInNewWindow</key>
+										<true/>
+										<key>type</key>
+										<integer>5</integer>
+									</dict>
+								</array>
+							</dict>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundSize</string>
+							<key>objectValue</key>
+							<string>100% 100%</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>pims</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>OriginalHeight</string>
+							<key>objectValue</key>
+							<string>269px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>293px</string>
+							<string>1024px</string>
 						</dict>
 					</array>
 				</dict>
+				<key>expandedElementOids</key>
+				<array/>
 				<key>isPersistentSymbol</key>
 				<true/>
 				<key>name</key>
@@ -5888,7 +5894,7 @@
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>3F1D4D98-0CF8-4247-8916-F8DFA462A7F1-3835-00000EEFAB53A43A</string>
+			<string>90F61FE5-39B7-4647-AE8C-64D31477CE36-66054-000037BF14E7392D</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -5911,9 +5917,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6043,15 +6049,15 @@ ul { margin-top: 0.3em !important; }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>472px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>472px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6073,9 +6079,9 @@ ul { margin-top: 0.3em !important; }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>37</key>
@@ -6163,9 +6169,9 @@ ul { margin-top: 0.3em !important; }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6300,12 +6306,6 @@ ul { margin-top: 0.3em !important; }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>2</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
@@ -6315,6 +6315,12 @@ ul { margin-top: 0.3em !important; }
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>472px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6336,9 +6342,9 @@ ul { margin-top: 0.3em !important; }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>39</key>
@@ -6730,7 +6736,7 @@ ul { margin-top: 0.3em !important; }
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>180px</string>
+							<string>144px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6762,10 +6768,11 @@ p { margin-top: 0.3em !important; }
 --&gt;
 &lt;/style&gt;
 
-Testing Gravity 2019 will be the 3rd Testing Gravity conference hosted by SFU. Like the &lt;a href="../TestingGravity2015/"&gt;2015&lt;/a&gt; and the &lt;a href="../TestingGravity2017/"&gt;2017&lt;/a&gt; meetings, Testing Gravity 2019 will provide an opportunity for experts on different ways of testing Gravity to meet and exchange their ideas. There will be a one-day school on Wednesday, January 23rd, featuring five review lectures by some of the invited speakers covering the key topics of the conference. The main conference, January 24-26, will feature invited and contributed talks, and a poster session.
+Testing Gravity 2019 is the 3rd Testing Gravity conference hosted by SFU bringing together leading experts on various ways of testing laws of gravity. Testing Gravity remains a topical theme because of the unexplained nature of Dark Matter and Dark Energy and the long-standing failure to reconcile gravity with quantum physics. Like the &lt;a href="../TestingGravity2015/"&gt;2015&lt;/a&gt; and the &lt;a href="../TestingGravity2017/"&gt;2017&lt;/a&gt; meetings, Testing Gravity 2019 will feature the latest updates from the gravitational wave detectors, cosmological surveys and other experiments, as well as discussions of recent theoretical advances. The conference aims to provide theorists working on extensions of General Relativity with a realistic perspective on what aspects of their theories can be tested. On the other hand, the experimentalists and observers will get a chance to learn about new ideas that their experiments can test.
 
 &lt;p&gt;
-Testing Gravity remains a topical theme, with the nature of Dark Matter and Dark Energy remaining unexplained, and with the continued search for a quantum theory of gravity. The TG conference series brings together the world's top experts - theorists, experimentalist and observers, to discuss new ways of testing General Relativity and its alternatives. It provides theorists working on alternative theories with a realistic perspective on what aspects of their theories can be tested. On the other hand, the experimentalists and observers welcome the chance to learn about new ideas that their experiments can test. Topics include gravitational waves, table-top experiments, solar system tests, particle astrophysics and cosmology.&lt;/p&gt;</string>
+Wednesday, January 23rd, will feature a "school" with five review lectures given by some of the invited speakers providing background into the key topics covered by the conference. The main conference, January 24-26, will include invited and contributed talks, and a poster session.
+&lt;/p&gt;</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6939,7 +6946,7 @@ Testing Gravity remains a topical theme, with the nature of Dark Matter and Dark
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>400px</string>
+							<string>374px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7239,7 +7246,7 @@ Testing Gravity remains a topical theme, with the nature of Dark Matter and Dark
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>3F1D4D98-0CF8-4247-8916-F8DFA462A7F1-3835-00000EEFAB53A43A</string>
+			<string>90F61FE5-39B7-4647-AE8C-64D31477CE36-66054-000037BF14E7392D</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -7390,7 +7397,7 @@ Testing Gravity remains a topical theme, with the nature of Dark Matter and Dark
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>1078px</string>
+							<string>1140px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7559,9 +7566,9 @@ Testing Gravity remains a topical theme, with the nature of Dark Matter and Dark
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7710,15 +7717,15 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>720px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>720px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7740,58 +7747,22 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>0px</string>
 						</dict>
 					</array>
 					<key>60</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>720px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>Group</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>300px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>152px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
 							<key>objectValue</key>
 							<string>Group</string>
 						</dict>
@@ -7803,9 +7774,9 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
+							<string>Left</string>
 							<key>objectValue</key>
-							<string>720px</string>
+							<string>152px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7815,9 +7786,49 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>720px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>720px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>396px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>TagName</string>
 							<key>objectValue</key>
 							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Group</string>
 						</dict>
 					</array>
 					<key>61</key>
@@ -7830,9 +7841,9 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7926,15 +7937,15 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>201px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>201px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7956,9 +7967,9 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>62</key>
@@ -8052,9 +8063,9 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8120,7 +8131,7 @@ context.stroke();
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>94px</string>
+							<string>150px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8148,23 +8159,30 @@ context.stroke();
 &lt;!--
 a:link, a:visited { color: #000000 }
 a:hover, a:active { color: #FF2600 }
+p { margin-top: 0.3em !important; margin-bottom: 0.3em !important; }
 --&gt;
 &lt;/style&gt;
 
-The registration fee is $300 for regular and $150 for student participants if paid prior to November 30th, 2018. The late fees are $350 and $200, respectively. The additional fee for attendance of the pre-conference school is $50, and banquet tickets are $75 per person. Registration closes January 22th, 2019. Cancellations are subject to 10% penalty, with no refunds after January 11th, 2019. Payment of registration fees is processed online by &lt;a href="http://www.sfu.ca/mecs.html"&gt;SFU Meeting, Event and Conference Services&lt;/a&gt;. All credit card transactions will be processed in Canadian dollars and are subject to current exchange rates.
+The registration fee is 300 CAD for regular and 150 CAD for student participants if paid prior to November 30th, 2018. After that, the fees increase at 350 and 200 CAD respectively. Banquet tickets are 75 CAD per person.
+
+&lt;p&gt;
+The additional fee for attendance of the pre-conference school is 50 CAD. The school will feature five lectures by some of the invited conference speakers. Lectures will cover an introduction to General Relativity (GR), binary systems and gravitational waves, neutron stars and astrophysical tests of GR, review of alternative gravity theories, and cosmological tests of GR.
+
+&lt;p&gt;
+Registration closes January 22th, 2019. Cancellations are subject to 10% penalty, with no refunds after January 11th, 2019. Payment of registration fees is processed online by &lt;a href="http://www.sfu.ca/mecs.html"&gt;SFU Meeting, Event and Conference Services&lt;/a&gt;. All credit card transactions will be processed in Canadian dollars and are subject to current exchange rates.
 </string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>15</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>15</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8192,9 +8210,9 @@ The registration fee is $300 for regular and $150 for student participants if pa
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>64</key>
