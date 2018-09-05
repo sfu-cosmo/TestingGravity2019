@@ -9,7 +9,7 @@
 	<key>createOfflineApplicationCache</key>
 	<false/>
 	<key>currentSceneContainer</key>
-	<string>102</string>
+	<string>34</string>
 	<key>customExportSlices</key>
 	<array>
 		<dict>
@@ -48,8 +48,8 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierPosition</string>
 		<string>kPropertiesMenuItemIdentifierAnimated</string>
+		<string>kPropertiesMenuItemIdentifierPosition</string>
 	</array>
 	<key>documentVersion</key>
 	<string>574</string>
@@ -175,11 +175,11 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<false/>
 	<key>lastCheckDate</key>
-	<date>2018-08-07T10:42:21Z</date>
+	<date>2018-09-05T17:20:51Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>1</integer>
+		<integer>2</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -1181,7 +1181,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>35</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 0}</string>
+					<string>{0, 556}</string>
 					<key>zoomFactor</key>
 					<real>0.75</real>
 				</dict>
@@ -1234,8 +1234,6 @@
 					<string>56</string>
 					<key>scrollViewOffset</key>
 					<string>{0, 491}</string>
-					<key>userGuides</key>
-					<array/>
 					<key>zoomFactor</key>
 					<real>0.75</real>
 				</dict>
@@ -1262,7 +1260,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1064, 1406}</string>
+					<string>{1065, 1406}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -1287,9 +1285,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>103</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 45.5}</string>
-					<key>userGuides</key>
-					<array/>
+					<string>{192, 714}</string>
 				</dict>
 			</array>
 		</dict>
@@ -1366,7 +1362,7 @@
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>8215A733-154A-4332-9CBB-B6D71CEDEDB2-81180-00003F4E9BF3B098</string>
+			<string>8F669F9B-744D-4E6A-80D7-146DADF3F84A-81913-00003EFF05F46809</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -2607,27 +2603,27 @@
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>#B8C8D1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2745,15 +2741,15 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#B8C8D1</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>15</key>
@@ -3077,9 +3073,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3179,15 +3175,15 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>704px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3209,9 +3205,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>8</key>
@@ -4833,7 +4829,7 @@
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>8215A733-154A-4332-9CBB-B6D71CEDEDB2-81180-00003F4E9BF3B098</string>
+			<string>8F669F9B-744D-4E6A-80D7-146DADF3F84A-81913-00003EFF05F46809</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -4850,9 +4846,9 @@
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>540px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5000,36 +4996,36 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>540px</string>
 						</dict>
 					</array>
 					<key>27</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#B8C8D1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5117,15 +5113,15 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>1024px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5147,24 +5143,24 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#B8C8D1</string>
 						</dict>
 					</array>
 					<key>28</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>267px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5312,18 +5308,18 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>267px</string>
 						</dict>
 					</array>
 					<key>29</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1920px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5469,18 +5465,18 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1920px</string>
 						</dict>
 					</array>
 					<key>30</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>109.9px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5622,9 +5618,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>109.9px</string>
 						</dict>
 					</array>
 					<key>31</key>
@@ -5700,9 +5696,9 @@
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>640px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5850,18 +5846,18 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>640px</string>
 						</dict>
 					</array>
 					<key>33</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>293px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6009,18 +6005,18 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>293px</string>
 						</dict>
 					</array>
 					<key>68</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1024px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6168,9 +6164,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1024px</string>
+							<string>div</string>
 						</dict>
 					</array>
 				</dict>
@@ -6288,11 +6284,9 @@
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>8215A733-154A-4332-9CBB-B6D71CEDEDB2-81180-00003F4E9BF3B098</string>
+			<string>8F669F9B-744D-4E6A-80D7-146DADF3F84A-81913-00003EFF05F46809</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>37</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -6313,9 +6307,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6410,7 +6404,8 @@ ul { margin-top: 0.3em !important; }
 &lt;font face="PT Sans Caption" size="6"&gt;Invited Speakers:
 &lt;/font&gt;
 &lt;font face="EB Garamond" size="4"&gt;&lt;ul&gt;
-&lt;li&gt;Eric Adelberger (U. Wash)
+&lt;li&gt;Hartmut Abele (TU Wien)
+&lt;/li&gt;&lt;li&gt;Eric Adelberger (U. Wash)
 &lt;/li&gt;&lt;li&gt;Camille Bonvin (Geneva)
 &lt;/li&gt;&lt;li&gt;Avery Broderick (Waterloo)
 &lt;/li&gt;&lt;li&gt;Manuela Campanelli (Rochester)
@@ -6445,15 +6440,15 @@ ul { margin-top: 0.3em !important; }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>472px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6475,9 +6470,9 @@ ul { margin-top: 0.3em !important; }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>37</key>
@@ -6565,9 +6560,9 @@ ul { margin-top: 0.3em !important; }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6702,6 +6697,12 @@ ul { margin-top: 0.3em !important; }
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>2</string>
@@ -6711,12 +6712,6 @@ ul { margin-top: 0.3em !important; }
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>472px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6738,9 +6733,9 @@ ul { margin-top: 0.3em !important; }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>39</key>
@@ -7064,9 +7059,9 @@ ul { margin-top: 0.3em !important; }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7208,9 +7203,9 @@ Wednesday, January 23rd, will feature a "school" with five review lectures given
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>41</key>
@@ -7642,7 +7637,7 @@ Wednesday, January 23rd, will feature a "school" with five review lectures given
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>8215A733-154A-4332-9CBB-B6D71CEDEDB2-81180-00003F4E9BF3B098</string>
+			<string>8F669F9B-744D-4E6A-80D7-146DADF3F84A-81913-00003EFF05F46809</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>62</string>
@@ -7964,21 +7959,21 @@ Wednesday, January 23rd, will feature a "school" with five review lectures given
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8115,15 +8110,15 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>720px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>720px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8145,15 +8140,15 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>60</key>
@@ -8239,9 +8234,9 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8335,15 +8330,15 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>3</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>201px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8365,9 +8360,9 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>62</key>
@@ -8461,9 +8456,9 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8572,15 +8567,15 @@ Registration closes January 22th, 2019. Cancellations are subject to 10% penalty
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>15</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>15</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8608,9 +8603,9 @@ Registration closes January 22th, 2019. Cancellations are subject to 10% penalty
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>64</key>
@@ -9444,11 +9439,13 @@ Registration closes January 22th, 2019. Cancellations are subject to 10% penalty
 			</dict>
 		</dict>
 		<dict>
+			<key>currentGroupElement</key>
+			<string>110</string>
 			<key>documentIdentifier</key>
-			<string>8215A733-154A-4332-9CBB-B6D71CEDEDB2-81180-00003F4E9BF3B098</string>
+			<string>8F669F9B-744D-4E6A-80D7-146DADF3F84A-81913-00003EFF05F46809</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>110</string>
+				<string>108</string>
 			</array>
 			<key>symbol</key>
 			<dict>
@@ -9464,9 +9461,9 @@ Registration closes January 22th, 2019. Cancellations are subject to 10% penalty
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>321px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9488,15 +9485,15 @@ Registration closes January 22th, 2019. Cancellations are subject to 10% penalty
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ScaleY</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Cursor</string>
 							<key>objectValue</key>
 							<string>pointer</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ScaleY</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9626,9 +9623,9 @@ Registration closes January 22th, 2019. Cancellations are subject to 10% penalty
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>321px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>105</key>
@@ -9647,9 +9644,9 @@ Registration closes January 22th, 2019. Cancellations are subject to 10% penalty
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9779,18 +9776,18 @@ Registration closes January 22th, 2019. Cancellations are subject to 10% penalty
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>106</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>29.586px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9932,9 +9929,9 @@ Registration closes January 22th, 2019. Cancellations are subject to 10% penalty
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>29.586px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>107</key>
@@ -9947,9 +9944,9 @@ Registration closes January 22th, 2019. Cancellations are subject to 10% penalty
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10080,15 +10077,15 @@ BC Ferries runs several regular &lt;a href="http://www.bcferries.com/schedules/m
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>472px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10110,18 +10107,18 @@ BC Ferries runs several regular &lt;a href="http://www.bcferries.com/schedules/m
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>108</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>103.699px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10157,7 +10154,7 @@ BC Ferries runs several regular &lt;a href="http://www.bcferries.com/schedules/m
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>509px</string>
+							<string>489px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10263,9 +10260,9 @@ BC Ferries runs several regular &lt;a href="http://www.bcferries.com/schedules/m
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>103.699px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>110</key>
@@ -10347,9 +10344,9 @@ BC Ferries runs several regular &lt;a href="http://www.bcferries.com/schedules/m
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10453,6 +10450,12 @@ The meeting will take place in the &lt;a href="http://www.sfu.ca/mecs/facilities
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>2</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
@@ -10462,12 +10465,6 @@ The meeting will take place in the &lt;a href="http://www.sfu.ca/mecs/facilities
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>472px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10489,18 +10486,18 @@ The meeting will take place in the &lt;a href="http://www.sfu.ca/mecs/facilities
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>114</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>109.9px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10642,9 +10639,9 @@ The meeting will take place in the &lt;a href="http://www.sfu.ca/mecs/facilities
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>109.9px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>115</key>
@@ -10657,9 +10654,9 @@ The meeting will take place in the &lt;a href="http://www.sfu.ca/mecs/facilities
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10760,14 +10757,14 @@ a:hover, a:active { color: #FF2600 }
 
 &lt;p&gt;&lt;font face="PT Sans Caption" size="5"&gt;&lt;a href="https://www.marriott.com/hotels/travel/yvrdv-delta-hotels-vancouver-downtown-suites/" target="_blank"&gt;Delta Vancouver Suites&lt;/a&gt;:&lt;/font&gt;
 &lt;/p&gt;&lt;p&gt;&lt;font face="EB Garamond" size="4"&gt;
-550 West Hastings Street (next to venue, $169.00/night + 17.5% tax)&lt;br&gt;
-Special rates are apply to dates from January 22 to January 26, 2017. Last day to book: December 11, 2018. Quote "Simon Fraser University group booking" when calling Marriott Reservations at +1(844)254-5048 to get the above rate.
+550 West Hastings St. (next to venue, 169 CAD/night + 17.5% tax)&lt;br&gt;
+Special rates apply to dates from January 22 to January 26, 2017. Last day to book: December 11, 2018. Quote "Simon Fraser University group booking" when calling Marriott Reservations at +1(844)254-5048 to get the above rate.
 &lt;/font&gt;
 
 &lt;/p&gt;&lt;p&gt;&lt;font face="PT Sans Caption" size="5"&gt;&lt;a href="https://www.sandmanhotels.com/locations/british-columbia/vancouver/hotels/vancouver-city-centre-vcc?adults=1&amp;amp;groupCode=1045355" target="_blank"&gt;Sandman Hotel Vancouver&lt;/a&gt;:&lt;/font&gt;
 &lt;/p&gt;&lt;p&gt;&lt;font face="EB Garamond" size="4"&gt;
-180 West Georgia Street (10 mins walk, $99.00/night + 17.5% tax)&lt;br&gt;
-Special rates apply to dates from January 22 to January 27, 2017. Quote Group Number 1045355 when you call.
+180 West Georgia St. (10 mins walk, 99 CAD/night + 17.5% tax)&lt;br&gt;
+Special rates apply to dates from January 22 to January 27, 2017. Quote Group Number 1045355 when you call, or use the &lt;a href="https://www.sandmanhotels.com/locations/british-columbia/vancouver/hotels/vancouver-city-centre-vcc?adults=1&amp;amp;groupCode=1045355" target="_blank"&gt;direct link&lt;/a&gt; get the above rate.
 &lt;/font&gt;
 &lt;/p&gt;</string>
 						</dict>
@@ -10779,15 +10776,15 @@ Special rates apply to dates from January 22 to January 27, 2017. Quote Group Nu
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>3</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>472px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10809,9 +10806,9 @@ Special rates apply to dates from January 22 to January 27, 2017. Quote Group Nu
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>117</key>
@@ -11397,7 +11394,7 @@ Special rates apply to dates from January 22 to January 27, 2017. Quote Group Nu
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>215px</string>
+									<string>195px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -11412,7 +11409,7 @@ Special rates apply to dates from January 22 to January 27, 2017. Quote Group Nu
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>509px</string>
+									<string>489px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -11813,7 +11810,7 @@ Special rates apply to dates from January 22 to January 27, 2017. Quote Group Nu
 								<key>uuid</key>
 								<string>C0593A28-FA94-46CD-AE0A-786FA0DB8496-84891-000084A0FF115BAA</string>
 								<key>zIndex</key>
-								<integer>7</integer>
+								<integer>6</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -11842,7 +11839,7 @@ Special rates apply to dates from January 22 to January 27, 2017. Quote Group Nu
 								<key>uuid</key>
 								<string>0A21F2CD-53AD-49D6-AA8D-0E2E6EBBB010-84891-0000848AC9965EDC</string>
 								<key>zIndex</key>
-								<integer>6</integer>
+								<integer>5</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -11871,7 +11868,7 @@ Special rates apply to dates from January 22 to January 27, 2017. Quote Group Nu
 								<key>uuid</key>
 								<string>4C46A29D-384B-43A1-8CA1-90BD696B245D-84891-0000848AC9C54A04</string>
 								<key>zIndex</key>
-								<integer>6</integer>
+								<integer>5</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -11889,7 +11886,7 @@ Special rates apply to dates from January 22 to January 27, 2017. Quote Group Nu
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>215px</string>
+									<string>195px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -11900,7 +11897,7 @@ Special rates apply to dates from January 22 to January 27, 2017. Quote Group Nu
 								<key>uuid</key>
 								<string>4FF536FF-DF66-4A4F-859A-A718D5E1446A-84891-0000848CD6E5C56C</string>
 								<key>zIndex</key>
-								<integer>6</integer>
+								<integer>5</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -11929,7 +11926,7 @@ Special rates apply to dates from January 22 to January 27, 2017. Quote Group Nu
 								<key>uuid</key>
 								<string>BE66977A-3504-4D17-B35C-82E0259DE8AC-84891-0000848BF1B87830</string>
 								<key>zIndex</key>
-								<integer>6</integer>
+								<integer>5</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -11958,7 +11955,7 @@ Special rates apply to dates from January 22 to January 27, 2017. Quote Group Nu
 								<key>uuid</key>
 								<string>42835C79-18D6-4155-BCD4-50A6661AD575-84891-000084A8D1AAA555</string>
 								<key>zIndex</key>
-								<integer>7</integer>
+								<integer>6</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -11987,7 +11984,7 @@ Special rates apply to dates from January 22 to January 27, 2017. Quote Group Nu
 								<key>uuid</key>
 								<string>4209C094-22EC-4F5E-B40E-6BE27D1F5994-84891-000084A7DE8F9F4C</string>
 								<key>zIndex</key>
-								<integer>7</integer>
+								<integer>6</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -12016,7 +12013,7 @@ Special rates apply to dates from January 22 to January 27, 2017. Quote Group Nu
 								<key>uuid</key>
 								<string>7C4DFD60-AEFC-4A7D-AFE0-9B470DBF5961-84891-000084A6079E93FA</string>
 								<key>zIndex</key>
-								<integer>7</integer>
+								<integer>6</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -12045,7 +12042,7 @@ Special rates apply to dates from January 22 to January 27, 2017. Quote Group Nu
 								<key>uuid</key>
 								<string>426AD82E-9506-43B2-A0FD-86ECADFA4CC0-84891-000084A60775EE40</string>
 								<key>zIndex</key>
-								<integer>7</integer>
+								<integer>6</integer>
 							</dict>
 						</array>
 						<key>firstKeyframeIsRelative</key>
@@ -12066,7 +12063,7 @@ Special rates apply to dates from January 22 to January 27, 2017. Quote Group Nu
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>8215A733-154A-4332-9CBB-B6D71CEDEDB2-81180-00003F4E9BF3B098</string>
+			<string>8F669F9B-744D-4E6A-80D7-146DADF3F84A-81913-00003EFF05F46809</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -12089,9 +12086,9 @@ Special rates apply to dates from January 22 to January 27, 2017. Quote Group Nu
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalHeight</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>500px</string>
+							<string>992px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12205,9 +12202,9 @@ Special rates apply to dates from January 22 to January 27, 2017. Quote Group Nu
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>OriginalHeight</string>
 							<key>objectValue</key>
-							<string>992px</string>
+							<string>500px</string>
 						</dict>
 					</array>
 					<key>151</key>
@@ -12220,9 +12217,9 @@ Special rates apply to dates from January 22 to January 27, 2017. Quote Group Nu
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12383,6 +12380,12 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>6</string>
@@ -12392,12 +12395,6 @@ a:hover, a:active { color: #FF2600 }
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>976px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12419,9 +12416,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>153</key>
@@ -12434,9 +12431,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12544,15 +12541,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>5</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>976px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>5</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12574,9 +12571,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>155</key>
