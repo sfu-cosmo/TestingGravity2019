@@ -1,0 +1,475 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+% use the corresponding paper size for your ticket definition
+\documentclass[letterpaper,12pt]{article}
+
+%%% Load fonts and graphics
+\usepackage{mathspec} % loads fontspec as well
+\usepackage{xcolor,xifthen,xltxtra,xunicode,graphicx,amstext}
+\definecolor{RegentGrey}{HTML}{83939D}
+\usepackage[pdfauthor={Testing Gravity 2017},pdftitle={Talks and Posters},colorlinks,urlcolor={RegentGrey}]{hyperref}
+\defaultfontfeatures{Scale=MatchLowercase,Ligatures=TeX}
+
+%%% Set paper size and margins
+\usepackage[letterpaper]{anysize}       % Set paper size and margins
+\marginsize{0.5in}{0.5in}{0.5in}{0.5in}
+\setlength{\headheight}{32pt}
+\setlength{\headsep}{12pt}
+\flushbottom
+
+%%% Customize layout
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\pagestyle{fancy}
+\lhead{\fontspec{Cinzel}\huge Testing Gravity 2017}\chead{}
+\rhead{\fontspec{Lato Light Italic}\Large Talks and Posters, page~\thepage}
+\lfoot{}\cfoot{}\rfoot{}
+%\renewcommand{\headrulewidth}{1pt}
+%\renewcommand{\footrulewidth}{1pt}
+
+
+\setmainfont[BoldFont={Lato},BoldItalicFont={Lato Italic}]{Lato Light}
+\setsansfont{Lato}
+\setmonofont{Jura}
+\setmathsfont(Digits,Latin,Greek)[Scale=MatchLowercase]{Lato Light}
+
+\newcommand{\slot}[1]{\item[\fontspec{Lato} #1]}
+\newcommand{\talk}[2]{{\fontspec{Lato Bold} #1,} {\fontspec{Lato Italic} #2}}
+
+
+\begin{document}
+\begin{itemize}
+\setlength\itemsep{0pt}
+%\setlength\itemindent{36pt}
+
+\item \talk{Jahed Abedi, (Albert Einstein Institute)}{Echoes from the Abyss: A highly spinning black hole remnant for the binary neutron star merger GW170817}
+
+The first direct observation of a binary neutron star (BNS) merger was a watershed moment in multi-messenger astronomy. However, gravitational waves from GW170817 have only been observed prior to the BNS merger, but electromagnetic observations all follow the merger event. While post-merger gravitational wave signal in general relativity is too faint (given current detector sensitivities), here we present the first tentative detection of post-merger gravitational wave "echoes" from a highly spinning "black hole" remnant. The echoes may be expected in different models of quantum black holes that replace event horizons by exotic Planck-scale structure and tentative evidence for them has been found in binary black hole merger events. The fact that the echo frequency is suppressed by $log M$ (in Planck units) puts it squarely in the LIGO sensitivity window, allowing us to build an optimal model-agnostic search strategy via cross-correlating the two detectors in frequency/time. We find a tentative detection of echoes at $f_{echo} \simeq 72 Hz$, around 1.0 sec after the BNS merger, consistent with a $2.6-2.7 \, M_\otimes$ "black hole" remnant with dimensionless spin $0.84−0.87$. Accounting for all the "look-elsewhere" effects, we find a significance of $4.2 \, \sigma$, or a false alarm probability of $1.6 \times 10^{-5}$, i.e. a similar cross-correlation within the expected frequency/time window after the merger cannot be found more than 4 times in 3 days. If confirmed, this finding will have significant consequences for both physics of quantum black holes and astrophysics of binary neutron star mergers.
+
+
+\item \talk{Hartmut Abele (TU Wien)}{Acoustic Rabi oscillations between gravitational quantum states and impact on symmetron dark energy}
+
+
+\item \talk{Eric Adelberger (University of Washington)}{Eot-Wash update: fuzzy dark matter, equivalence principle tests, short-distance gravity and LIGO instrumentation}
+
+
+\item \talk{Niayesh Afshordi (University of Waterloo / Perimeter Institute)}{Quantum Black Holes in the Sky}
+
+I will discuss the evidence for microstructure of BH horizons, seen as echoes in gravitational wave observations, which has now been found (at varying degrees of confidence) by three independent groups, and what it implies for quantum gravity.
+
+
+\item \talk{Cesar Hernandez Aguayo (ICC, Durham University)}{Large scale redshift space distortions in modified gravity}
+
+Measurements of redshift space distortions (RSDs) give us a means to test alternative models of gravity on large-scales. In this talk I will show you recent results on the constraints of the distortion parameter estimated by two RSDs models, the first one is based on linear perturbation theory and the second one includes non-linear effects of small-scales described by the renormalised perturbation theory. We validate the RSDs models with mock galaxy catalogues of three families of gravity models: a flat LCDM model based on GR, the $f(R)$ Hu-Sawicki gravity model and the normal branch of the brane-world DGP model. 
+
+
+\item \talk{Christian Arnold (ICC, Durham University)}{Simulating galaxy formation with the Illustris-TNG model in f(R) modified gravity}
+
+The question on the nature of gravity and dark energy is one of the fundamental problems in modern cosmology. f(R) gravity is a viable alternative to general relativity (GR) with a cosmological constant and can therefore be used to test GR over a large range of scales. Simulations of cosmic structure formation in this model thus deliver crucial information on how possible deviations from GR might be observable in upcoming surveys such as Euclid, DESI or LSST. The simulations I will present in this talk are dedicated to study the interplay between baryonic feedback and modified gravity, two processes which both have a significant effect on the matter clustering and the matter power spectrum. They for the first time include both a full physics hydrodynamical model and modified gravity in one simulation at a time. The simulations were carried out with the AREPO cosmological simulation code and its new modified gravity solver which allows to solve the f(R) gravity equations in full non-linearity and to fully capture the effects of the chameleon screening mechanism. The baryonic physics are simulated employing the Illustris-TNG hydrodynamical model in the code which incorporates magnetohydrodynamics, star- and black hole formation, supernova- and AGN feedback, metal advection and galactic winds. In this talk I will present detailed study of the degeneracy between AGN-feedback and f(R) gravity in the matter power spectrum, results on the impact of f(R) gravity on the stellar and gaseous components of galaxies and on the effects of modified gravity on star formation.
+
+
+\item \talk{Kellie Ault-O'Neal (Embry-Riddle Aeronautical University)}{Testing Lorentz Symmetry with Gravitational Waves}
+
+General Relativity and the Standard Model are two experimentally supported theories, yet a consistent unified quantum theory of gravity at the Planck scale is still to be found. Built into these theories are CPT and Lorentz Symmetries; attempts to un	
+
+
+\item \talk{Dimitry Ayzenberg (Fudan University)}{RELXILL\_NK: A Non-Kerr Extension of the RELXILL X-Ray Reflection Model}
+
+The X-Ray reflection spectrum produced by accretion disks around black holes is one of a few electromagnetic observations of black holes that can be used to test the Kerr hypothesis and General Relativity in the strong gravity regime. RELXILL is currently the most advanced model for the X-Ray reflection spectrum, but it cannot model the spectrum for non-Kerr spacetimes. In this talk I will present a recent extension of RELXILL to a generic stationary, axisymmetric, and asymptotically flat black hole metric. I will show that this extension retains the accuracy for the Kerr spacetime that is expected of the RELXILL model, but can also be used to test the Kerr hypothesis. I will also present the results from recent work in placing constraints on deviations from the Kerr metric using observational data.
+
+
+\item \talk{Sina Bahrami (Pennsylvania State University)}{Incorporating dark matter in the effective field theory of dark energy}
+
+The effective field theory of dark energy is generalized to incorporate dark matter, which is modeled using a complex scalar field with a global U(1) symmetry. The dark matter model used here has similarities to models of ultralight axion.
+
+\item \talk{Mario Ballardini (University of the Western Cape)}{Testing extended Jordan-Brans-Dicke theories with cosmological observations}
+
+We study the predictions in extended Jordan-Brans-Dicke theory of gravity with a dedicated Einstein Boltzmann code solving self-consistently the dynamics of homogeneous cosmology and linear perturbations without using any parametrization. We study the imprints of an effectively massless minimally and non-minimally coupled scalar field on the evolution of the background and linear perturbations of the Universe and we use astrophysical and cosmological observations spanning a wide range of scales to constrain the coupling parameters to the Ricci curvature and the other cosmological parameters. We forecast the capabilities of future galaxy surveys in combination with current and future CMB anisotropies measurements to further constrain these simple scalar-tensor theory of gravity. We show how Euclid-like galaxy clustering and weak lensing data in combination with BOSS and future CMB observations have the potential to reach constraints on the first post-Newtonian parameter $\gamma_{\rm PN}$ comparable to those from the Solar System, without introducing any screening
+
+
+\item \talk{Cristian Barrera-Hinojosa (ICC, Durham University)}{N-body cosmological simulations based on General Relativity}
+
+I will give an overview of a recently developed code for General Relativistic N-body cosmological simulations. I will discuss its theoretical foundations, the key differences with respect to state-of-the-art codes and some preliminary results.
+
+
+\item \talk{Matteo Braglia (University of Bologna)}{Isocurvature Initial Conditions in Scalar-Tensor Modified Gravity Theories}
+
+We present a new isocurvature mode in scalar tensor theory of gravity connected to compensation between the energy density of the scalar field and of the relativistic degrees of freedom. In particular, we consider extended Jordan-Brans-Dicke (JBD) theories where the scalar field which regulates the strength of the gravitational interaction is also responsible for the late acceleration of our Universe. We review the status of the cosmological constraints on extended JBD with adiabatic initial conditions and then we describe the impact of the new isocurvature mode on CMB anisotropy angular power spectra in temperature and polarization. We finally present the Planck constraints on the amplitude of the isocurvature fraction for different degree of correlation with the adiabatic mode.
+
+
+\item \talk{Avery Broderick (Perimeter Institute / University of Waterloo)}{Mapping Spacetimes with Black Hole Cinema}
+
+I will discuss the variety of ways that the EHT will probe general relativity, focusing on the importance of horizon-scale variability in this effort.
+
+
+\item \talk{Alessandra Buonanno (Max Planck Institute for Gravitational Physics)}{Probing the nature of gravity and fundamental physics with gravitational-wave observations}
+
+
+\item \talk{Cliff Burgess (McMaster University / Perimeter Institute)}{Effective applications of gravity: some surprises from EFT}
+
+This talk examines how effective field theory methods can differ in gravitational applications, in ways that resemble some applications in condensed matter systems.
+
+
+\item \talk{Clare Burrage (University of Nottingham)}{Symmetron Scalar Fields: Modified Gravity, Dark Matter or Both?}
+
+Scalar fields coupled to gravity through the Ricci scalar have been considered both as dark matter candidates and as a possible modified gravity explanation for galactic dynamics. I will demonstrate the equivalence of conformally coupled theories, usually considered modified gravity, and Higgs portal coupled scalars, usually considered dark matter.  I will show that the dynamics of baryonic matter in disk galaxies may be explained, in the absence of particle dark matter, by a symmetron scalar field that mediates a fifth force. But that simple extensions of the model cannot explain the difference between the baryonic and lens masses of galaxies. This pushes us towards an intriguing regime of parameter space where one scalar field both mediates a fifth force and stores enough energy density that it also contributes to the galaxy's gravitational potential as a dark matter component.
+
+
+\item \talk{Manuela Campanelli (RIT)}{}
+
+
+\item \talk{Ilaria Caiazzo (University of British Columbia)}{Shining black holes: testing gravity with Colibr\`{\i}}
+
+
+\item \talk{Ra\'{u}l Carballo-Rubio (SISSA)}{Testing the nature of black hole boundaries}
+
+One of the most striking predictions of general relativity is the formation of horizons, closed surfaces that act as one-way membranes for energy, matter and information. Testing this prediction is particularly subtle due to peculiar features in the mathematical definition of these surfaces, the strength of the surrounding gravitational fields, or a combination of both. At the same time, the formation of these membranes has critical implications for the nature and internal structure of black holes. In this talk, I will discuss a phenomenological approach that focuses on the properties of horizons that can be tested observationally, and illustrate with examples the interplay between these properties and fundamental physics.
+
+
+\item \talk{Alejandro Cardenas-Avendano (Montana State University)}{Finding order in a sea of chaos}
+
+In this talk I will discuss whether chaos is present in the motion of test particles around spinning black holes of parity-violating modified gravity, focusing in particular on dynamical Chern Simons gravity.	
+
+
+\item \talk{Daniel Carney (University of Maryland / Fermilab)}{Tabletop experiments for quantum gravity}
+
+I will give a broad overview of tabletop experiments capable of probing quantum gravity, focusing on mesoscopic mechanical systems and matter-wave interferometry.
+
+
+\item \talk{Juan Cayuso (Perimeter Institute for Theoretical Physics)}{Large scale physics with the Sunyaev Zel'dovich effect}
+
+We evaluate the improvements on contraints on CMB anomalies and dark energy models when observables obtained via the Sunyaev Zel'dovich effect are taken into account an analysis that usually only consideration primary CMB T and E-pol data.
+
+
+\item \talk{Ka-Wai Chung (The Chinese University of Hong Kong)}{A Phenomenological Inclusion of Alternative Dispersion Relations to the Teukolsky Equation and its Application to Bounding the Graviton Mass with Gravitational-wave Measurements}
+
+Existing constraints on the graviton mass from gravitational-wave detections rely on the phase difference developed between different frequencies during the propagation. Effects on the quasinormal mode frequencies of the black-hole ringdown due to the graviton mass are often ignored. While perturbation theories of black holes have been well developed in the context of general relativity, this is not the case for modified gravity theories.We propose a phenomenological modification to the Teukolsky equation of perturbed black holes to include the dispersion relation due to a gravitational field of non-zero mass. Solving this modified Teukolsky equation by logarithmic perturbation theory, we compute the shift of the quasinormal mode frequencies due to the presence of a graviton mass. This hypothetical shift can be used to constrain the graviton mass with ringdown signals, either standalone or in conjunction with the phase difference accumulated due to the wave propagation. We estimate that constraints on the graviton mass of $m_g > 10^{-15}\,\textrm{eV}$ can be put with a detection of the ringdown signal alone by second generation gravitational-wave detectors.
+
+
+\item \talk{Omar Contigiani (Leiden University)}{The splashback radius in symmetron gravity}
+
+The splashback radius has been identified in cosmological N-body simulations as a scale associated to gravitational collapse and the phase-space wrapping of recently accreted material.  We employ a semi-analytical approach to study the spherical collapse of dark matter haloes in symmetron gravity and provide insights into how the phenomenology of splashback is affected.  The symmetron is a scalar-tensor theory of gravity which exhibits a screening mechanism whereby higher-density regions are  screened  from  the  effects  of  a  fifth  force.  In  this  model  we  find that,  as  over-densities  grow  over cosmic  time,  an  inner  heavily  screened  region  is  formed.   In  particular,  we  identify  the  existence of an efficient combination of model parameters for which material currently sitting at the splashback position follows, during collapse, the formation of this screened region and it is maximally affected by the symmetron force.  As  a  result,  we  predict  changes  in the splashback  radius up  to around 10\% compared  to its General  Relativity value.  Because this margin is within the precision of present splashback experiments, we expect this feature to soon provide constraints for symmetron gravity on previously unexplored scales.
+
+
+\item \talk{Michael Desrochers (University of British Columbia)}{Hamiltonian consistency of the gravitational constraint algebra under deformations}
+
+The importance of the first-class constraint algebra of general relativity is not limited just by its self-contained description of the gauge nature of spacetime, but it also provides conditions to properly evolve the geometry by selecting a gauge.
+
+
+\item \talk{Benjamin Elder (University of Nottingham)}{Testing chameleon modified gravity with atom interferometry}
+
+Chameleons are a class of scalar field theories which modify gravity. While mediating a long-range gravitational force, their effects are typically hidden from local detection via a screening mechanism. Recent lab tests of gravity, using atom interferometry, are capable of probing the unscreened regime of the theory, but require precise theoretical predictions for the chameleon force. This work numerically solves for the chameleon force, throughout the 3-dimensional experimental setup. This work places stronger constraints on the theory by making precise predictions for the chameleon force. It also allows us to optimize the geometry for maximum chameleon signal in future experiments.	
+
+
+\item \talk{Benjamin Elder (University of Nottingham)}{Exact symmetron screening in 2 dimensions}
+
+A number of modern theories of modified gravity rely on screening to suppress their deviations from Einstein gravity in dense environments, such as around planets. This property allows these theories evade traditional tests of gravity. Screening mechanisms generically rely on non-linearities in the equation of motion becoming large.  Although screening is an inherently non-linear effect, the standard analytic approach is to linearize the equation of motion in different regimes, as the full equation of motion is typically not solvable. In this talk will describe exact solutions of the symmetron modified gravity theory, working in 2 spacetime dimensions so that the non-linear equation of motion is tractable analytically. These solutions demonstrate screening exactly, and becomes significant for sufficiently small and massive matter sources.  We will also be able to see how the solution around two localized matter sources resembles the solution around a single source in the limit that the distance between the two sources is small. This provides a check on the standard approach of representing matter as a smooth density distribution in analytic calculations and simulations, even when the matter is composed of localized sources, such as stars.
+
+
+\item \talk{Nathan Evetts (University of British Columbia)}{Magnetometry Techniques for Gravitational Measurements of Antihydrogen with ALPHA-g}
+
+The ALPHA collaboration is constructing a new apparatus (ALPHA-g) to measure matter-antimatter gravitational interactions with magnetically trapped antihydrogen. The magnetic forces that are used for antiatom containment will dominate over the gravitational forces we hope to measure. In order to distinguish between these two types of forces experienced by the antihydrogen atoms, custom, high precision magnetometry methods need to be developed. This poster will discuss techniques borrowed from the fields of non-neutral plasmas and nuclear magnetic resonance. These methods are deployed in tandem and result in magnetic field sensors with precisions of about 1 part in 10,000. The implications of this precision on antihydrogen gravity measurements are considered. Factors limiting our magnetic field measurements are also discussed, as well as directions for improvement.
+
+
+\item \talk{Jose Mar\'{i}a Ezquiaga (Universidad Aut\'{o}noma de Madrid)}{Testing gravity with standard sirens}
+
+Multi-messenger gravitational wave astronomy offers exciting new avenues to test Einsteins theory of gravity. In this talk I will present what we could learn about gravity by constraining the GW luminosity distance using standard sirens.
+
+
+\item \talk{F\'{e}lix-Louis Juli\'{e} (APC, Paris)}{Compact binary systems in modified gravities and EOB theory}
+
+I will show how to derive analytical gravitational waveforms associated to the coalescence of hairy binary black holes, by generalizing the EOB formalism to the example of Einstein-Maxwell-dilaton theories.
+
+
+\item \talk{Wenjuan Fang (University of Science and Technology of China)}{A new probe of gravity using the Minkowski functionals of large-scale structure}
+
+The morphological properties of large-scale structure, fully described by four Minkowski functionals, provide important complementary information to common statistics. Using N-body simulations, we find it a potentially powerful probe of gravity.
+
+
+\item \talk{Heather Fong (RESCEU, University of Tokyo)}{Latest results from Advanced LIGO and Virgo and outlook for the next observing run}
+
+I will discuss the latest results from Advanced LIGO and Virgo and expectations for the next observing run
+
+
+\item \talk{Tomas Galvez (SFU)}{Instantaneous Temperatures a la Hadamard: Towards a generalized Stefan–Boltzmann law for curved spacetime}
+
+In the celebrated Unruh effect, we learn that a uniformly accelerating detector in a Minkowski vacuum spacetime registers a constant temperature. In this talk, I present a technique based on derivative couplings of the two–point Wightman function and the Hadamard renormalization procedure to define an instantaneous temperature for a massive scalar field, non-minimally coupled to gravity. We find the temperature contains local contributions from the acceleration of the detector, the curvature of spacetime, and the renormalized stress–energy tensor of the field. Our result, which can be considered as a generalized Stefan–Boltzmann law for curved spacetimes, agrees with the familiar expressions found in 4D Rindler, thermal Minkowski, and de Sitter. 
+
+
+\item \talk{Chandrima Ganguly (Dartmouth College)}{Eternal Universe: Mixmaster Cosmologies that work}
+
+A non linear equation of state sourcing an anisotropic Mixmaster cosmology is shown to isotropise as well as create a bounce without actively including a negative energy density.
+
+
+\item \talk{Cisco Gooding (Nottingham)}{Quantum Gravity by Analogy}
+
+Analogue gravity systems allow complex gravitational phenomena to be explored in a laboratory setting. The current focus of analogue gravity research is on the behaviour of classical or quantum fields on fixed background spacetimes. However, in the context of a new direction for rotational superradiance, I describe an experimental realization involving entanglement between a field and its geometry that cannot be understood in terms of a fixed spacetime. I therefore discuss the possibility of using analogue systems to provide experimental guidance for the development of a quantum theory of gravity.
+
+
+\item \talk{Julien Grain (IAS (Orsay-France))}{Phenomenological aspects of loop quantum cosmology}
+
+I will present a broad overview of bouncing scenarios developed in loop quantum cosmology, focusing on their different predictions on the statistical properties of primordial inhomogeneities.	
+
+
+\item \talk{Ruth Gregory (Durham University)}{Testing Gravitational Quantum Tunneling}
+
+I will describe ideas about how to simulate false vacuum decay in analogue gravity.
+
+
+\item \talk{A. Miguel Holgado (University of Illinois at Urbana-Champaign)}{Gravitational Waves from Close Binaries with Time-Varying Masses.}
+
+We show that close binaries with time-varying masses produce GWs from the time-dependence itself in addition to those produced by orbital motion. This generalizes the Peters and Mathews (1963) analysis to describe close interacting binaries.
+
+
+\item \talk{Lam Hui (Columbia University)}{}
+
+
+\item \talk{Bhuvnesh Jain (University of Pennsylvania)}{Lensing by halos and large-scale structure: results from DES}
+
+
+\item \talk{Austin Joyce (Columbia University)}{Shapes of gravity: graviton non-gaussianity and heavy particles}
+
+I will describe how graviton non-Gaussianities can probe the presence of massive spin-2 particles in the early universe.
+
+
+\item \talk{Yoshio Kamiya (University of Tokyo)}{Experimental Search for New Gravity-like Forces in the Nanometer Scale with Slow Neutrons}
+
+We have performed a series of experimental searches for new Gravity-like forces in scattering of cold neutron beams with Xenon gas (PRL114,161101). I'll show about a recently conducted high stat. run with intense neutron beam in Inst. Laue-Langevin.
+
+
+\item \talk{Mark Kasevich (Stanford University)}{}
+
+
+\item \talk{Justin Khoury (University of Pennsylvania)}{}
+
+
+\item \talk{Demet Kirmizibayrak}{Probing Black Holes Through Reverberation Mapping}
+
+I will talk about reverberation mapping to probe the spacetime surrounding black holes in the context of Colibrì: the new concept mission for a high spectral high time resolution X-ray telescope.
+
+
+\item \talk{Tsutomu Kobayashi (Rikkyo University)}{Parity-violating gravity and GW170817}
+
+We consider gravitational waves in generic parity-violating gravity including recently proposed ghost-free theories with parity violation as well as Chern-Simons modified gravity, and study the implications of observational constraints from GW170817.
+
+
+\item \talk{Gabor Kunstatter (University of Winnipeg)}{Lost horizons: the dynamics of regular black hole formation and evaporation}
+
+
+\item \talk{Macarena Lagos (KICP, University of Chicago)}{Standard sirens with a running Planck Mass}
+
+In this short talk I will discuss how we can use gravitational waves to constrain gravity models with an effective time-dependent Planck mass
+
+
+\item \talk{John Lee (University of Washington)}{Testing Gravity Below 50 micrometers}
+
+Tests of the gravitational inverse square law at small separations constrain speculative ideas of fundamental physics. I will present an update of our test using the Fourier-Bessel pendulum.
+
+
+\item \talk{Elizabeth Loggia (University of British Columbia)}{A gravity-like slow force as an alternative to dark matter}
+
+After decades of searching, the direct detection of dark matter remains elusive. An alternative idea is to consider an extra force, which couples to baryonic matter and acts similar to gravity but with a slower propagation speed.
+
+
+\item \talk{Nicholas Loutrel (Princeton University)}{Gravitational Waves from Spin Precessing Binaries in Dynamical Chern Simons Gravity}
+
+In this talk, I will discuss the prospect of constraining dynamical Chern Simons gravity with gravitational wave observations from spin precessing black hole binaries and the construction of analytic waveform templates in this theory.
+
+
+\item \talk{Rubab Manzoor (University of Management and Technology)}{Self-Gravitating Body and Modified Gravity}
+
+The evolution of self-gravitating body is discussed in modified gravity. For this, various phases of evolving self-gravitating models are describe   in alternative approach to general relativity. This discussion provides differentiation among general relativity and modified gravitational framework.  It is found that modified framework modifies the evolving model.   
+
+
+\item \talk{Alexander Mead (University of British Columbia)}{Accurate non-linear power spectra calculations for modified gravity models using halo-model responses}
+
+The halo model can be used for an analytical calculation of non-linear cosmological power spectra that are necessary for a full analysis of gravitational lensing surveys. Unfortunately, the calculation is not accurate enough to be used for forthcoming cosmological surveys such as LSST or Euclid. In this talk, I will demonstrate that while the absolute power spectrum derived from the model is inaccurate, the response of the model to changes in dark energy and modified gravity parameters is accurate, but only if we work at fixed linear spectrum and we include predictions from analytical spherical-collapse calculations consistently within the model. This provides a route for per-cent level accuracy in the non-linear spectrum.
+
+
+\item \talk{Lia	Medeiros (University of Arizona, UCSB)}{Quantifying Black Hole Images in non-Kerr Metrics}
+
+Our understanding of black holes assumes that they are described by the Kerr solution to Einstein’s equations. A promising avenue for testing the Kerr hypothesis is to detect the shadow a black hole casts on the surrounding emission and compare its size and shape to the predictions of the Kerr metric. The Event Horizon Telescope (EHT) aims to take the first image of a black hole resolved at horizon scales to measure the shadow and probe accretion physics. In recent work I performed ray-tracing simulations for a few parametrized non-Kerr metrics. I probed the allowed parameter space for the free parameters of each metric and created a large set of non-Kerr black hole shadows. I performed principal components analysis (PCA) on this set of shadows and showed that only a small number of components are needed to accurately reconstruct all shadows within the set. These PCA components can be fit to future EHT observations and can be used to place constraints on the free parameters of these metrics.
+
+
+\item \talk{Florent Michel (Durham University)}{Simulating vacuum Tunneling with Cold Atoms}
+
+I will describe in more detail our recent work exploring how to simulate seeded gravitational vacuum decay in a cold atom analog system. I will explain how analog vortices compare to black holes.
+
+
+\item \talk{Myles Mitchell (ICC, Durham University)}{Modelling the concentration of dark matter haloes in modified gravity}
+
+I will present a new method to accurately model the behaviour of the halo concentration-mass relation in modified gravity, which can potentially be useful for cosmological tests of gravity.
+
+
+\item \talk{Jacob Moldenhauer (University of Dallas)}{Exploring the dynamics of modified gravity and dark energy cosmological models using CosmoEJS}
+
+We obtain fits for parameters from modified gravity and dark energy cosmological models to some of the latest observational data sets.  We use various combinations of data sets including cosmic microwave background radiation, supernovae type Ia, baryon acoustic oscillations, strong lensing, cosmic chronometers, redshift space distortions, and the Hubble Constant.  We use CosmoEJS to construct dynamical plots of the model's evolutionary history.  The CosmoEJS packages allow for interactive simultaneous plotting and comparing of different cosmological models to actual observational data sets. While we use the dynamical plots to investigate why some cosmological models do not fit well to low or high redshift data points, depending on the precision, we also acknowledge that some models are indistinguishable from a visual inspection and can only be distinguished with precise numerical fitting. 
+
+
+\item \talk{Jessica Muir (KIPAC, Stanford)}{Splitting growth and geometry to test $\Lambda$CDM with DES}
+
+I will describe an ongoing growth-geometry split analysis of galaxy clustering and weak lensing data from the Dark Energy Survey (DES). The goal of the analysis is to perform a consistency test of LCDM inspired by modified gravity models, which can mimic the expansion history predicted by LCDM but fairly generically change the relationship between expansion and the evolution of structure. The growth-geometry split parameterization provides a nearly model independent way to test for this effect by quantifying the consistency between constraints from structure growth and geometry. I will discuss the pipeline validation procedure used to ensure results from DES are robust against potential systematic contaminants, and will present projections for the constraining power of the DES Year 1 and Year 3 analyses.
+
+
+\item \talk{Jiro Murata (Rikkyo University)}{Status and New Idea of Experimental Tests of Newtonian Gravity}
+
+
+\item \talk{Nils A. Nilsson (National Centre for Nuclear Research - Poland)}{Lorentz Breaking Cosmological Models}
+
+Lorentz symmetry seems to be an exact symmetry of nature, and it is well tested up to the highest energy scales in all sectors of the standard model. However, quantum gravity effects can only be expected to occur at energy scales much higher than this and Lorentz symmetry may be broken or deformed there. As such, early Universe evolution would have been influenced by this and these effects may be measurable today.
+In this talk I will outline some work done in Lorentz breaking cosmological models (such as Horava-Lifshitz cosmology), both theoretically and through using cosmological data analysis. I will also discuss gravitational tests of Lorentz violation which sets stringent bounds on parameters, bounds which can be used in other experiments. Finally, I will discuss some recent work introducing tensor Lorentz violation into cosmological models, along with phenomenological consequences of such additional dynamics.
+
+
+\item \talk{Nelson Nunes (York University)}{Testing the einstein equivalence principle by measuring the gravitational redshift with radioastron in a highly elliptical orbit around earth}
+
+The incompatibility of general relativity and quantum theory is a fundamental problem in our understanding of the physical world. The Einstein equivalence principle (EEP) is at the foundation of general relativity and the gravitational redshift is a consequence of the EEP. An accurate measurement of the gravitational redshift and a comparison with prediction is therefore of prime importance. The space VLBI satellite RadioAstron was launched in 2011 into a highly elliptical orbit around Earth with an apogee of $\sim$350,000 km. For several years, the downlink signals at 8.4 and 15 GHz were locked to the on-board hydrogen maser, and their frequencies were recorded at ground stations also equipped with hydrogen masers. Over 4,250 sessions, most with $\sim$100,000 frequency recordings at each of the two frequencies, were obtained over $\sim$4.5 years. During the 9-day elliptical orbits, the spacecraft traveled through the varying gravitational potential of Earth, which caused an oscillating gravitational redshift of the downlink signals. The relative frequency shift varied between 6.8×$10^{-10}$ and ∼$\sim$4×$10^{-10}$. We report on our analysis of data recorded at the ground stations in Pushchino, Russia, and Green Bank, USA, compare our results with predictions, and discuss the possibility of testing the EEP with a higher sensitivity than that of the Gravity Probe A mission
+
+
+\item \talk{Henrique de Oliveira (State University of Rio de Janeiro)}{The affine-null formulation of the gravitational equations: spherical critical collapse }
+
+A new evolution algorithm for the characteristic initial value problem based upon an affine parameter rather than the areal radial coordinate used in the Bondi-Sachs formulation is applied in the spherically symmetric case to the gravitational collapse of a massless scalar field. The advantages over the Bondi-Sachs version are discussed, with particular emphasis on the application to critical collapse. Unexpected quadratures lead to an evolution algorithm based upon two first order equations which can be integrated along the null rays. It is implemented as a global numerical evolution code based upon the Galerkin method. New results regarding the global properties of critical collapse are presented.
+
+
+\item \talk{Zhen Pan (Perimeter Institute)}{Testing Gravity on Large Scale Using Galaxy Surveys and KSZ Signal}
+
+In this talk, I will give an example of constraining MG using galaxy surveys and kinetic/polarization Sunyaev-Zeldolvich effect, where three-dimensional information is available, therefore the cosmic variance would be largely suppressed.
+
+
+\item \talk{Georgios Papadomanolakis (Lorentz Institute, Leiden U)}{The Tachyon Instability in Scalar Tensor Theories}
+
+In this talk I will present our study of the tachyonic instability within a broad set of models. I will start with the derivation of the conditions necessary to avoid it and will then proceed to study the impact on the parameter space.
+
+
+\item \talk{Manu Paranjape (Universit\'{e} de Montr\'{e}al)}{How to measure the speed of gravity}
+
+We propose a method to measure the speed of propagation of gravitational phenomena.  Subtleties due to the lack of aberration of the propagation of gravitational are elucidated.	
+
+
+\item \talk{Simone Peirone (Lorentz Institute - Leiden University)}{Large scale phenomenology of viable Horndeski models}
+I present the impact of conditions of theoretical stability on the cosmological analysis of scalar-tensor theories. I focus on the computation of emblematic observables, in order to efficiently constrain Dark Energy and Modified Gravity against data.	
+
+
+\item \talk{Will Percival (University of Waterloo)}{Testing gravity with galaxy surveys}
+
+I will discuss how we can test gravity with galaxy surveys, looking at current and future experiments. I will also consider using voids - regions of the Universe containing very few galaxies - to make gravity measurements.
+
+
+\item \talk{Dimitrios Psaltis (Arizona)}{EHT update}
+
+
+\item \talk{Alexander Rider (Stanford University)}{Testing Gravity With Optically Levitated Test Masses}
+
+We have demonstrated a novel technique for measuring microscopic forces and torques acting on optically levitated dielectric microspheres. The radiation field at the focus of a laser beam is used to levitate a microsphere in a harmonic trap, where the displacement of the microsphere can be determined by the pattern of scattered light. The rotational degrees of freedom can also be measured from the change in the polarization state of the transmitted light. Optical levitation isolates the microsphere from the surrounding environment at high vacuum, making exceptionally sensitive force and torque measurements possible. We have demonstrated a sensitivity of $8 \times 10^{-18} N/\sqrt{Hz}$
+for forces, and $2.3 \times 10^{-24} Nm/\sqrt{Hz}$ for torques acting on $5um$ diameter microspheres. Here we discuss how optically levitated test masses are being used to test gravity at short distances. 
+
+
+\item \talk{Marco Raveri (University of Chicago)}{Reconstructing Gravity on Cosmological Scales}
+
+I will discuss the first complete data-driven non-parametric reconstruction of gravitational theories on cosmological scales. After introducing the details of the models involved I will present the results of the reconstruction with state of the art data. I will elaborate on the implications of these results for known data discrepancies within the standard cosmological model.
+
+
+\item \talk{Matthew Robbins (University of Waterloo, Perimeter Institute)}{Bose-Einstein Condensates as Gravitational Wave Detectors}
+
+We investigate a Bose-Einstein condensate (BEC) as a gravitational wave detector and study its sensitivity by optimizing the properties of the condensate and the measurement duration. We show that detecting kilohertz gravitational waves is limited by current experimental techniques in squeezing BEC phonons, while at higher frequencies, decoherence due to phonon-phonon interaction gives the main limitation. Future improvements in technology to squeeze BEC states can make them competitive detectors for gravitational waves of astrophysical and/or cosmological origin.
+
+
+\item \talk{Misao Sasaki (IPMU)}{}
+
+
+\item \talk{Douglas Scott (University of British Columbia)}{Dimensionless cosmology and gravity}
+
+Variations of fundamental constants, and the connection with dimensional versus dimensionless quantities, is a topic that continues to confuse people.  I'll discuss some related issues, in the context of cosmological and gravitational models.
+
+
+\item \talk{Anushrut Sharma (University of Pennsylvania)}{The Equation of State of Dark Matter Superfluids}
+	
+I'll derive the finite temperature Equation of State for superfluids with 2-body and 3-body contact interactions and derive the density profile of dark matter as an application.
+
+
+\item \talk{Alessandra Silvestri (Leiden University)}{Lighting up Einstein's Dark Universe}
+
+
+\item \talk{Ingrid Stairs (UBC)}{Tests of Strong-Field Gravity with Pulsars}
+
+
+\item \talk{Sergey Sushkov (Kazan Federal University)}{}
+
+
+\item \talk{Andrius Tamosiunas (ICG - University of Portsmouth)}{Testing Emergent Gravity on Galaxy Cluster Scales}
+
+E. Verlinde’s theory of emergent gravity postulates that gravity is an emergent phenomena rather than a fundamental force. Applying this theory in de-Sitter space results in volume contribution to the total entanglement entropy. This, in turn, results in the modification of the gravitational force on galaxy and galaxy cluster scales. In this talk I will be discussing the results of our work done testing emergent gravity on galaxy cluster scales using the surface brightness and weak lensing profiles from 58 stacked galaxy clusters. 
+
+
+\item \talk{Jay	Tasson (Carleton College)}{The systematic search for Lorentz violation: an update}
+
+This presentation will summarize the approach to systematically searching for Lorentz violation provided by the gravitational Standard-Model Extension. An update on recent results and ongoing efforts will then be provided.	
+
+
+\item \talk{Jonathan Thornburg (Indiana U, Max Planck Gravitational Physics)}{Excitation of Kerr quasinormal modes in extreme--mass-ratio binary black hole inspirals}
+
+If a small "particle" of mass $m$ orbits a "background" black hole of
+mass $M >> m$, the leading-order perturbations to the background spacetime
+include an $O[(m/M)^2]$ gravitational-radiation-reaction "self-force"
+acting locally on the particle.  Using a scalar-field toy model, we
+[Phys. Rev. D95, 084043 (2017)] found that that in some cases the
+self-force shows large oscillations on the outgoing leg of the orbit
+shortly after periapsis passage.  (An antecedent of this result was
+found by Kojima and Nakamura [Prog. Theor. Phys. 72, 494 (1984)]: when
+an infinitesimal-mass test particle makes a hyperbolic flyby of a Kerr
+black hole, in some cases there are small oscillations in the radiated
+gravitational waves at ${\cal I}^+$ shortly after the main periapsis-passage
+signal.)  Here we extend these results and show that these "wiggles" are
+in fact quasinormal-mode oscillations of the background black hole spacetime
+excited by the particle's periapsis passage.  Wiggles occur for both the
+scalar-field and the full gravitational systems, throughout a wide range
+in parameter space.  They are detectable in the local self-force,
+strong-field regularized scalar-field or metric perturbations, and in
+radiated fields at ${\cal I}^+$.  They represent a situation where
+\emph{nonlocal} contributions to the self-force Green function are
+important.  Their effects at ${\cal I}^+$ might allow direct observation
+of Kerr QNMs, enabling new tests of general relativity.
+
+
+\item \talk{Vasil Todorinov (University of Lethbridge	)}{Relativistic Generalized Uncertainty Principle}
+
+We propose a covariant version of the Generalized  Uncertainty Principle and minimum measurable length, and study its experimental implications.
+
+
+\item \talk{Mark Trodden (University of Pennsylvania)}{Extending the Classical Double Copy}
+
+
+\item \talk{Shinji Tsujikawa (Tokyo University of Science)}{Galaxy-ISW constraints on dark energy models consistent with GW170817}
+
+The correlation between galaxy and integrated-Sachs-Wolfe (ISW) effect in the cosmic microwave background (CMB) can be used to place tight constraints on models of the late-time cosmic acceleration containing cubic-order Galileon interactions.
+
+
+\item \talk{Federico Urban (CEICO, Institute of Physics, Prague)}{Fuzzy Dark Matter and Binary Pulsars}
+
+I will show how properties such as spin, mass, and couplings of ultra-light (fuzzy) dark matter can be tested with binary pulsars, in particular by searching for secular variations in the orbital parameters.
+
+
+\item \talk{Tanmay Vachaspati (Arizona State University)}{Classical Quantum Correspondence}
+
+
+\item \talk{Qingwen Wang (Perimeter Institute for Theoretical Physics)}{Black hole Echology}
+
+ECOs produce similar ringdown waveforms to the GR black holes, but they are followed by delayed ``echoe''. By solving linearized Einstein equations we can model these echoes.	
+
+
+\item \talk{Mark Wise (Caltech)}{}
+
+
+\item \talk{Chukman So (TRIUMF)}{The ALPHA-g experiment}
+
+
+\item \talk{Nicolas Yunes (eXtreme Gravity Institute, Montana State University)}{Can we probe Planckian corrections at the horizon scale with gravitational waves?}
+
+
+\item \talk{Zhang Yun-Long (Yukawa Institute for Theoretical Physics)}{Holographic Model of the Dark Fluid in Late Time Universe}
+
+We study a scenario that the dark matter fluid in late time universe emerges as part of the holographic stress-energy tensor on the FRW hypersurface in higher dimensional flat spacetime. We construct a toy model with the FRW hypersurface as the holographic screen in the flat bulk. After adding the baryonic matter on the screen, both of the dark matter and dark energy can be described by the Brown-York stress-energy tensor. From the Hamiltonian constraint equation in the flat bulk, we find an interesting relation between the dark matter and baryonic matter's energy density parameters, by comparing with the Lambda cold dark matter parametrization. We further compare this holographic embedding of emergent dark matter with traditional braneworld scenario and present an alternative interpretation as the holographic universe. We also fit the new parametrization of the Modified Friedmann equation with the supernova data, which matches well with our theoretical assumption. 
+
+
+\end{itemize}
+\end{document}
