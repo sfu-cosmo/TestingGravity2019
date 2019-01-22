@@ -9,7 +9,7 @@
 	<key>createOfflineApplicationCache</key>
 	<false/>
 	<key>currentSceneContainer</key>
-	<string>188</string>
+	<string>225</string>
 	<key>customExportSlices</key>
 	<array>
 		<dict>
@@ -195,17 +195,17 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<false/>
 	<key>lastCheckDate</key>
-	<date>2019-01-21T07:33:34Z</date>
+	<date>2019-01-22T23:52:07Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>2</integer>
+		<integer>1</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
 			<string>{{0, 0}, {1280, 700}}</string>
 			<key>identifier</key>
-			<string>container 136</string>
+			<string>container 95</string>
 			<key>isCustomizableViewContainer</key>
 			<true/>
 			<key>isCustomizableViewWrapper</key>
@@ -385,7 +385,7 @@
 	<key>monotypeProjectID</key>
 	<string>4B6BD28D-53C2-4B28-96C3-BA28C7E18619-85016-000007272212FA83</string>
 	<key>oidCounter</key>
-	<integer>195</integer>
+	<integer>232</integer>
 	<key>pageTitle</key>
 	<string>Testing Gravity 2019</string>
 	<key>resourcesInfo</key>
@@ -1239,7 +1239,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1164, 1406}</string>
+					<string>{1164, 1407}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -1264,9 +1264,61 @@
 					<key>rootSymbolControllerOid</key>
 					<string>35</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 0}</string>
+					<string>{0, 556}</string>
 					<key>zoomFactor</key>
 					<real>0.75</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>currentSceneOid</key>
+			<string>230</string>
+			<key>name</key>
+			<string>Participants</string>
+			<key>oid</key>
+			<string>225</string>
+			<key>scenes</key>
+			<array>
+				<dict>
+					<key>animationController</key>
+					<dict>
+						<key>timeCursors</key>
+						<dict>
+							<key>kTimelineDefaultIdentifier</key>
+							<real>0.0</real>
+						</dict>
+						<key>timescale</key>
+						<integer>60</integer>
+					</dict>
+					<key>canvasSize</key>
+					<string>{1064, 1406}</string>
+					<key>hypeScene</key>
+					<dict>
+						<key>backgroundColor</key>
+						<string>#FFFFFF</string>
+						<key>breakpointWidth</key>
+						<real>1024</real>
+						<key>name</key>
+						<string>Untitled Layout</string>
+						<key>perspective</key>
+						<real>600</real>
+						<key>sceneScalePercentageSize</key>
+						<string>{1, 1}</string>
+						<key>sceneSize</key>
+						<string>{1024, 1366}</string>
+						<key>shouldScaleSceneHeight</key>
+						<false/>
+						<key>shouldScaleSceneWidth</key>
+						<true/>
+					</dict>
+					<key>oid</key>
+					<string>230</string>
+					<key>rootSymbolControllerOid</key>
+					<string>226</string>
+					<key>scrollViewOffset</key>
+					<string>{3, 907}</string>
+					<key>userGuides</key>
+					<array/>
 				</dict>
 			</array>
 		</dict>
@@ -1291,7 +1343,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1064, 2216}</string>
+					<string>{1064, 2268}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -1305,7 +1357,7 @@
 						<key>sceneScalePercentageSize</key>
 						<string>{1, 1}</string>
 						<key>sceneSize</key>
-						<string>{1024, 2176}</string>
+						<string>{1024, 2226}</string>
 						<key>shouldScaleSceneHeight</key>
 						<false/>
 						<key>shouldScaleSceneWidth</key>
@@ -1316,7 +1368,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>189</string>
 					<key>scrollViewOffset</key>
-					<string>{103, 1717}</string>
+					<string>{113, 1769}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -1501,7 +1553,7 @@
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>98F750E7-FAD8-4ADE-AFB5-3DC867833F99-51298-00001E523B17AF66</string>
+			<string>185B9BC7-BB2C-44C8-BFC7-C48DC600E96A-95336-00003064FD8A016B</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -2870,15 +2922,15 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>1024px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>2</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>1024px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3328,15 +3380,15 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4988,7 +5040,7 @@
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>98F750E7-FAD8-4ADE-AFB5-3DC867833F99-51298-00001E523B17AF66</string>
+			<string>185B9BC7-BB2C-44C8-BFC7-C48DC600E96A-95336-00003064FD8A016B</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -5453,15 +5505,15 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>1024px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>1024px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6696,9 +6748,11 @@
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>98F750E7-FAD8-4ADE-AFB5-3DC867833F99-51298-00001E523B17AF66</string>
+			<string>185B9BC7-BB2C-44C8-BFC7-C48DC600E96A-95336-00003064FD8A016B</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>41</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -6830,29 +6884,34 @@ ul { margin-top: 0.3em !important; }
 &lt;/li&gt;&lt;li&gt;Justin Khoury (UPenn)
 &lt;/li&gt;&lt;li&gt;Will Percival (Waterloo)
 &lt;/li&gt;&lt;li&gt;Dimitrios Psaltis (Arizona)
-&lt;/li&gt;&lt;li&gt;Misao Sasaki (Kyoto)
+&lt;/li&gt;&lt;li&gt;Misao Sasaki (IPMU)
 &lt;/li&gt;&lt;li&gt;Alessandra Silvestri (Leiden)
 &lt;/li&gt;&lt;li&gt;Ingrid Stairs (UBC)
 &lt;/li&gt;&lt;li&gt;Chukman So (TRIUMF)
-&lt;/li&gt;&lt;li&gt;Sergey Sushkov (Kazan)
 &lt;/li&gt;&lt;li&gt;Mark Trodden (Penn)
 &lt;/li&gt;&lt;li&gt;Tanmay Vachaspati (ASU)
 &lt;/li&gt;&lt;li&gt;Mark Wise (Caltech)
 &lt;/li&gt;&lt;li&gt;Nico Yunes (Montana)
 &lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;
+
+&lt;font face="PT Sans Caption" size="6"&gt;Registered Participants:
+&lt;/font&gt;
+&lt;font face="EB Garamond" size="4"&gt;&lt;ul&gt;
+&lt;li&gt;current &lt;a href="#" class="transition" onclick="HYPE.documents['TG2019'].showSceneNamed('Participants', HYPE.documents['TG2019'].kSceneTransitionPushBottomToTop, 0.5)"&gt;registered participant list&lt;/a&gt;
+&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;
 </string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7116,9 +7175,9 @@ ul { margin-top: 0.3em !important; }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7128,9 +7187,9 @@ ul { margin-top: 0.3em !important; }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>2</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7824,7 +7883,7 @@ Wednesday, January 23rd, will feature a "school" with five review lectures given
 							<key>duration</key>
 							<real>1.1000000000000001</real>
 							<key>sceneOid</key>
-							<string>76</string>
+							<string>188</string>
 							<key>transition</key>
 							<integer>5</integer>
 							<key>type</key>
@@ -7840,7 +7899,18 @@ Wednesday, January 23rd, will feature a "school" with five review lectures given
 				<key>onSceneSwipeUpActionHandler</key>
 				<dict>
 					<key>actions</key>
-					<array/>
+					<array>
+						<dict>
+							<key>duration</key>
+							<real>1.1000000000000001</real>
+							<key>sceneOid</key>
+							<string>225</string>
+							<key>transition</key>
+							<integer>6</integer>
+							<key>type</key>
+							<integer>1</integer>
+						</dict>
+					</array>
 				</dict>
 				<key>onSceneTimelineCompleteActionHandler</key>
 				<dict>
@@ -8056,7 +8126,7 @@ Wednesday, January 23rd, will feature a "school" with five review lectures given
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>98F750E7-FAD8-4ADE-AFB5-3DC867833F99-51298-00001E523B17AF66</string>
+			<string>185B9BC7-BB2C-44C8-BFC7-C48DC600E96A-95336-00003064FD8A016B</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>62</string>
@@ -8384,15 +8454,15 @@ Wednesday, January 23rd, will feature a "school" with five review lectures given
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8529,15 +8599,15 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>720px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8559,13 +8629,13 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
@@ -8743,15 +8813,15 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>3</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8986,15 +9056,15 @@ Registration closes January 22th, 2019. Cancellations are subject to 10% penalty
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>15</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9861,7 +9931,7 @@ Registration closes January 22th, 2019. Cancellations are subject to 10% penalty
 			<key>currentGroupElement</key>
 			<string>110</string>
 			<key>documentIdentifier</key>
-			<string>98F750E7-FAD8-4ADE-AFB5-3DC867833F99-51298-00001E523B17AF66</string>
+			<string>185B9BC7-BB2C-44C8-BFC7-C48DC600E96A-95336-00003064FD8A016B</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>108</string>
@@ -10490,15 +10560,15 @@ BC Ferries runs several regular &lt;a href="http://www.bcferries.com/schedules/m
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10875,9 +10945,9 @@ The meeting will take place in the &lt;a href="http://www.sfu.ca/mecs/facilities
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>2</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10887,9 +10957,9 @@ The meeting will take place in the &lt;a href="http://www.sfu.ca/mecs/facilities
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11195,15 +11265,15 @@ Special rates apply to dates from January 22 to January 27, 2017. Quote Group Nu
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>3</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12488,7 +12558,7 @@ Special rates apply to dates from January 22 to January 27, 2017. Quote Group Nu
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>98F750E7-FAD8-4ADE-AFB5-3DC867833F99-51298-00001E523B17AF66</string>
+			<string>185B9BC7-BB2C-44C8-BFC7-C48DC600E96A-95336-00003064FD8A016B</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -12805,9 +12875,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>6</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12817,9 +12887,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>6</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12960,15 +13030,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>5</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>5</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -13264,7 +13334,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>98F750E7-FAD8-4ADE-AFB5-3DC867833F99-51298-00001E523B17AF66</string>
+			<string>185B9BC7-BB2C-44C8-BFC7-C48DC600E96A-95336-00003064FD8A016B</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>191</string>
@@ -13339,7 +13409,7 @@ a:hover, a:active { color: #FF2600 }
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>1855px</string>
+							<string>1905px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -13414,7 +13484,7 @@ a:hover, a:active { color: #FF2600 }
 &lt;tr class="plain" style="height: 13em;"&gt;
 &lt;td&gt;&lt;span class="time"&gt;10:30-11:40&lt;/span&gt; &lt;span class="speaker"&gt;Lam Hui&lt;/span&gt;
     &lt;span class="title"&gt;The landscape of modified gravity theories&lt;/span&gt;
-    &lt;span class="time"&gt;10:30-11:40&lt;/span&gt; &lt;span class="speaker"&gt;Nicolas Yunes&lt;/span&gt;
+    &lt;span class="time"&gt;11:45-12:55&lt;/span&gt; &lt;span class="speaker"&gt;Nicolas Yunes&lt;/span&gt;
     &lt;span class="title"&gt;Binary systems and gravitational waves&lt;/span&gt;
 &lt;td&gt;&lt;span class="time"&gt;11:00-11:30&lt;/span&gt; &lt;span class="speaker"&gt;Cliff Burgess&lt;/span&gt;
     &lt;span class="title"&gt;Effective applications of gravity: some surprises from EFT&lt;/span&gt;
@@ -13439,7 +13509,7 @@ a:hover, a:active { color: #FF2600 }
     &lt;span class="time"&gt;11:20-11:30&lt;/span&gt; &lt;span class="speaker"&gt;Douglas Scott&lt;/span&gt;
     &lt;span class="title"&gt;Dimensionless cosmology and gravity&lt;/span&gt;
     &lt;span class="time"&gt;11:30-12:30&lt;/span&gt; &lt;span class="speaker"&gt;RAPID TALKS&lt;/span&gt;
-    &lt;span class="title"&gt;Session #2&lt;/span&gt;
+    &lt;span class="title"&gt;&lt;a href="../pdfs/rapid-2.pdf" target="_blank"&gt;Session #2&lt;/a&gt;&lt;/span&gt;
 
 &lt;tr class="solid" style="height: 2.5em;"&gt;
 &lt;th&gt;&lt;span class="heading"&gt;Lunch Break&lt;/span&gt;&lt;br&gt;
@@ -13501,7 +13571,7 @@ a:hover, a:active { color: #FF2600 }
     &lt;span class="time"&gt;16:50-16:50&lt;/span&gt; &lt;span class="speaker"&gt;Federico Urban&lt;/span&gt;
     &lt;span class="title"&gt;Fuzzy dark matter and binary pulsars&lt;/span&gt;
     &lt;span class="time"&gt;16:50-17:50&lt;/span&gt; &lt;span class="speaker"&gt;RAPID TALKS&lt;/span&gt;
-    &lt;span class="title"&gt;Session #1&lt;/span&gt;
+    &lt;span class="title"&gt;&lt;a href="../pdfs/rapid-1.pdf" target="_blank"&gt;Session #1&lt;/a&gt;&lt;/span&gt;
 &lt;td&gt;&lt;span class="time"&gt;16:00-16:30&lt;/span&gt; &lt;span class="speaker"&gt;Mark Kasevich&lt;/span&gt;
     &lt;span class="title"&gt;Testing gravity and quantum mechanics with atom interferometry&lt;/span&gt;
     &lt;span class="time"&gt;16:30-17:00&lt;/span&gt; &lt;span class="speaker"&gt;Mark Wise&lt;/span&gt;
@@ -13533,6 +13603,8 @@ a:hover, a:active { color: #FF2600 }
 
 &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;p align=center&gt;&lt;span class="title"&gt;&lt;a href="../pdfs/abstracts.pdf" target="_blank"&gt;download all talk and poster abstracts as a single PDF file&lt;/a&gt;&lt;/span&gt;
 </string>
 						</dict>
 						<dict>
@@ -13587,7 +13659,7 @@ a:hover, a:active { color: #FF2600 }
 							<key>identifier</key>
 							<string>OriginalHeight</string>
 							<key>objectValue</key>
-							<string>1805px</string>
+							<string>1855px</string>
 						</dict>
 					</array>
 					<key>194</key>
@@ -13650,7 +13722,7 @@ a:hover, a:active { color: #FF2600 }
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>2069px</string>
+							<string>2119px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -13800,14 +13872,565 @@ a:hover, a:active { color: #FF2600 }
 						<dict>
 							<key>duration</key>
 							<real>1.1000000000000001</real>
-							<key>sceneSymbol</key>
-							<integer>2</integer>
+							<key>sceneOid</key>
+							<string>34</string>
 							<key>transition</key>
 							<integer>4</integer>
 							<key>type</key>
 							<integer>1</integer>
 						</dict>
 					</array>
+				</dict>
+				<key>onSceneSwipeUpActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneTimelineCompleteActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneUnloadActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onTopDuringSceneTransition</key>
+				<true/>
+				<key>properties</key>
+				<dict>
+					<key>PhysicsGravityAngle</key>
+					<real>180</real>
+					<key>PhysicsGravityForce</key>
+					<real>1</real>
+					<key>PhysicsGravityInheritFromParent</key>
+					<false/>
+					<key>PhysicsGravityUsesDeviceTilt</key>
+					<false/>
+				</dict>
+				<key>removeWhenNoLongerReferenced</key>
+				<true/>
+				<key>showInResourceLibrary</key>
+				<false/>
+				<key>timelines</key>
+				<array>
+					<dict>
+						<key>animations</key>
+						<array/>
+						<key>firstKeyframeIsRelative</key>
+						<false/>
+						<key>framesPerSecond</key>
+						<integer>30</integer>
+						<key>hidden</key>
+						<false/>
+						<key>identifier</key>
+						<string>kTimelineDefaultIdentifier</string>
+						<key>name</key>
+						<string>Main Timeline</string>
+						<key>userDefinedDuration</key>
+						<real>0.0</real>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>documentIdentifier</key>
+			<string>185B9BC7-BB2C-44C8-BFC7-C48DC600E96A-95336-00003064FD8A016B</string>
+			<key>selectedObjects</key>
+			<array/>
+			<key>symbol</key>
+			<dict>
+				<key>addToNewSceneControllers</key>
+				<false/>
+				<key>currentTimelineIdentifier</key>
+				<string>kTimelineDefaultIdentifier</string>
+				<key>customBehaviors</key>
+				<array/>
+				<key>elements</key>
+				<dict>
+					<key>229</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>FontFamily</string>
+							<key>objectValue</key>
+							<string>'EB Garamond'</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingRight</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>FontSize</string>
+							<key>objectValue</key>
+							<string>18px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Display</string>
+							<key>objectValue</key>
+							<string>inline</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>WordWrap</string>
+							<key>objectValue</key>
+							<string>break-word</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Text</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>198px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingBottom</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>WhiteSpaceCollapsing</string>
+							<key>objectValue</key>
+							<string>preserve</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>1029px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AutoresizingMask</string>
+							<key>objectValue</key>
+							<string>37</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>16px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>InnerHTML</string>
+							<key>objectValue</key>
+							<string>&lt;meta charset="UTF-8"&gt;
+&lt;font face="PT Sans Caption" size="6"&gt;Registered Participants:
+&lt;/font&gt;
+&lt;table&gt;
+&lt;tbody style="vertical-align: top;"&gt;
+&lt;tr&gt;
+
+&lt;td style="width: 30%;"&gt;&lt;ul&gt;
+&lt;li&gt;Jahed Abedi (AEI)
+&lt;/li&gt;&lt;li&gt;Hartmut Abele (TU Wien)
+&lt;/li&gt;&lt;li&gt;Eric Adelberger (Washington)
+&lt;/li&gt;&lt;li&gt;Niayesh Afshordi (Waterloo/Perimeter)
+&lt;/li&gt;&lt;li&gt;Christian Arnold (ICC, Durham)
+&lt;/li&gt;&lt;li&gt;Kellie Ault-O'Neal (Embry-Riddle Aeronautical)
+&lt;/li&gt;&lt;li&gt;Dimitry Ayzenberg (Fudan)
+&lt;/li&gt;&lt;li&gt;Sina Bahrami (PennState)
+&lt;/li&gt;&lt;li&gt;Mario Ballardini (Western Cape)
+&lt;/li&gt;&lt;li&gt;Jolyon Bloomfield (MIT)
+&lt;/li&gt;&lt;li&gt;Matteo Braglia (Bologna)
+&lt;/li&gt;&lt;li&gt;Avery Broderick (Waterloo)
+&lt;/li&gt;&lt;li&gt;Alessandra Buonanno (AEI)
+&lt;/li&gt;&lt;li&gt;Cliff Burgess (McMaster)
+&lt;/li&gt;&lt;li&gt;Clare Burrage (Nottingham)
+&lt;/li&gt;&lt;li&gt;Ilaria Caiazzo (UBC)
+&lt;/li&gt;&lt;li&gt;Manuela Campanelli (RIT)
+&lt;/li&gt;&lt;li&gt;Raúl Carballo-Rubio (SISSA)
+&lt;/li&gt;&lt;li&gt;A. Cardenas-Avendano (Montana State)
+&lt;/li&gt;&lt;li&gt;Michael Carlson (none)
+&lt;/li&gt;&lt;li&gt;Daniel Carney (Maryland/Fermilab)
+&lt;/li&gt;&lt;li&gt;Juan Cayuso (Perimeter)
+&lt;/li&gt;&lt;li&gt;Ka-Wai Chung (CUHK)
+&lt;/li&gt;&lt;li&gt;Omar Contigiani (Leiden)
+&lt;/li&gt;&lt;li&gt;Brad Cownden (Manitoba)
+&lt;/li&gt;&lt;li&gt;Meiling Deng (UBC)
+&lt;/li&gt;&lt;li&gt;Michael Desrochers (UBC)
+&lt;/li&gt;&lt;li&gt;Adam Dong (UBC)
+&lt;/li&gt;&lt;li&gt;Benjamin Elder (Nottingham)
+&lt;/li&gt;&lt;li&gt;Nathan Evetts (UBC)
+&lt;/li&gt;&lt;li&gt;Jose María Ezquiaga (UAM)
+&lt;/li&gt;&lt;li&gt;Wenjuan Fang (USTC)
+&lt;/li&gt;&lt;li&gt;Sofia Fatigoni (UBC)
+&lt;/li&gt;&lt;li&gt;Heather Fong (RESCEU, Tokyo)
+&lt;/li&gt;&lt;li&gt;Andrei Frolov (SFU)
+&lt;/li&gt;&lt;li&gt;Makoto Fujiwara (TRIUMF)
+&lt;/li&gt;&lt;li&gt;Jose Tomas Galvez Ghersi (SFU)
+&lt;/li&gt;&lt;li&gt;Chandrima Ganguly (Dartmouth College)
+&lt;/li&gt;&lt;li&gt;Cisco Gooding (Nottingham)
+&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;
+&lt;td style="width: 30%;"&gt;&lt;ul&gt;
+&lt;li&gt;Julien Grain (IAS Orsay-France)
+&lt;/li&gt;&lt;li&gt;Ruth Gregory (Durham)
+&lt;/li&gt;&lt;li&gt;Shaun Heady (STCC)
+&lt;/li&gt;&lt;li&gt;Cesar Hernandez Aguayo (ICC, Durham)
+&lt;/li&gt;&lt;li&gt;Jeremy Heyl (UBC)
+&lt;/li&gt;&lt;li&gt;Ryley Hill (UBC)
+&lt;/li&gt;&lt;li&gt;Takashi Hiramatsu (Rikkyo)
+&lt;/li&gt;&lt;li&gt;A. Miguel Holgado (Illinois at Urbana-Champaign)
+&lt;/li&gt;&lt;li&gt;Lam Hui (Columbia)
+&lt;/li&gt;&lt;li&gt;Bhuvnesh Jain (UPenn)
+&lt;/li&gt;&lt;li&gt;Austin Joyce (Columbia)
+&lt;/li&gt;&lt;li&gt;Yoshio Kamiya (Tokyo)
+&lt;/li&gt;&lt;li&gt;Mark Kasevich (Stanford)
+&lt;/li&gt;&lt;li&gt;Kamaldeep Kaur (TIET)
+&lt;/li&gt;&lt;li&gt;Justin Khoury (UPenn)
+&lt;/li&gt;&lt;li&gt;Demet Kirmizibayrak (UBC)
+&lt;/li&gt;&lt;li&gt;Tsutomu Kobayashi (Rikkyo)
+&lt;/li&gt;&lt;li&gt;Gabor Kunstatter (Winnipeg)
+&lt;/li&gt;&lt;li&gt;Macarena Lagos (KICP, Chicago)
+&lt;/li&gt;&lt;li&gt;John Lee (Washington)
+&lt;/li&gt;&lt;li&gt;Elizabeth Loggia (UBC)
+&lt;/li&gt;&lt;li&gt;Nicholas Loutrel (Princeton)
+&lt;/li&gt;&lt;li&gt;Fiona McCarthy (Perimeter)
+&lt;/li&gt;&lt;li&gt;Alexander Mead (UBC)
+&lt;/li&gt;&lt;li&gt;Lia Medeiros (Arizona/UCSB)
+&lt;/li&gt;&lt;li&gt;James Mertens (York/PI)
+&lt;/li&gt;&lt;li&gt;Florent Michel (Durham)
+&lt;/li&gt;&lt;li&gt;Salvatore Mignemi (Cagliari)
+&lt;/li&gt;&lt;li&gt;Dave Miller (SFU)
+&lt;/li&gt;&lt;li&gt;Myles Mitchell (ICC, Durham)
+&lt;/li&gt;&lt;li&gt;Jacob Moldenhauer (Dallas)
+&lt;/li&gt;&lt;li&gt;Jessica Muir (KIPAC/Stanford)
+&lt;/li&gt;&lt;li&gt;Jiro Murata (Rikkyo)
+&lt;/li&gt;&lt;li&gt;Ali Nezhadsafavi (SFU)
+&lt;/li&gt;&lt;li&gt;Nils A. Nilsson (NCNR - Poland)
+&lt;/li&gt;&lt;li&gt;Nelson Nunes (York)
+&lt;/li&gt;&lt;li&gt;Henrique de Oliveira (UERJ)
+&lt;/li&gt;&lt;li&gt;Zhen Pan (Perimeter)
+&lt;/li&gt;&lt;li&gt;Georgios Papadomanolakis (Leiden)
+&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;
+&lt;td style="width: 30%;"&gt;&lt;ul&gt;
+&lt;li&gt;Manu Paranjape (Montréal)
+&lt;/li&gt;&lt;li&gt;Simone Peirone (Leiden)
+&lt;/li&gt;&lt;li&gt;Will Percival (Waterloo)
+&lt;/li&gt;&lt;li&gt;Levon Pogosian (SFU)
+&lt;/li&gt;&lt;li&gt;Dimitrios Psaltis (Arizona)
+&lt;/li&gt;&lt;li&gt;Marco Raveri (KICP)
+&lt;/li&gt;&lt;li&gt;Alexander Rider (Stanford)
+&lt;/li&gt;&lt;li&gt;Matthew Robbins (Waterloo/Perimeter)
+&lt;/li&gt;&lt;li&gt;Rachel A Rosen (Columbia)
+&lt;/li&gt;&lt;li&gt;Michael Ross (Washington)
+&lt;/li&gt;&lt;li&gt;Misao Sasaki (IPMU)
+&lt;/li&gt;&lt;li&gt;Mathew Schneider (SFU)
+&lt;/li&gt;&lt;li&gt;Douglas Scott (UBC)
+&lt;/li&gt;&lt;li&gt;Naoki Seto (Kyoto)
+&lt;/li&gt;&lt;li&gt;Anushrut Sharma (Pennsylvania)
+&lt;/li&gt;&lt;li&gt;Erik Shaw (Washington)
+&lt;/li&gt;&lt;li&gt;Alessandra Silvestri (Leiden)
+&lt;/li&gt;&lt;li&gt;Chukman So (TRIUMF)
+&lt;/li&gt;&lt;li&gt;Hajime Sotani (NAOJ)
+&lt;/li&gt;&lt;li&gt;Ingrid Stairs (UBC)
+&lt;/li&gt;&lt;li&gt;Raelyn Sullivan (UBC)
+&lt;/li&gt;&lt;li&gt;Andrius Tamosiunas (ICG - Portsmouth)
+&lt;/li&gt;&lt;li&gt;Jay Tasson (Carleton College)
+&lt;/li&gt;&lt;li&gt;Kate Taylor (Victoria)
+&lt;/li&gt;&lt;li&gt;Vasil Todorinov (Lethbridge)
+&lt;/li&gt;&lt;li&gt;Mark Trodden (UPenn)
+&lt;/li&gt;&lt;li&gt;Shinji Tsujikawa (TUS)
+&lt;/li&gt;&lt;li&gt;Yukari Uchibori (SFU)
+&lt;/li&gt;&lt;li&gt;Federico Urban (CEICO, Prague)
+&lt;/li&gt;&lt;li&gt;Tanmay Vachaspati (Arizona State)
+&lt;/li&gt;&lt;li&gt;Qingwen Wang (Perimeter)
+&lt;/li&gt;&lt;li&gt;Mark Wise (Caltech)
+&lt;/li&gt;&lt;li&gt;Tim Wiser (Truman State)
+&lt;/li&gt;&lt;li&gt;Kei Yamada (Kyoto)
+&lt;/li&gt;&lt;li&gt;Myungseok Yoon (Sangmyung)
+&lt;/li&gt;&lt;li&gt;Zhang Yun-Long (YITP, Kyoto)
+&lt;/li&gt;&lt;li&gt;Nico Yunes (Montana State)
+&lt;/li&gt;&lt;li&gt;Tom Zlosnik (CEICO, Prague)
+&lt;/li&gt;&lt;li&gt;Alex Zucca (SFU)
+&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;
+
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>976px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingTop</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>Text</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextColor</string>
+							<key>objectValue</key>
+							<string>#000000</string>
+						</dict>
+					</array>
+					<key>231</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>unnamed instance</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>SymbolOid</string>
+							<key>objectValue</key>
+							<string>7</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AutoresizingMask</string>
+							<key>objectValue</key>
+							<string>39</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>150px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>1024px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>5</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>32px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Symbol</string>
+						</dict>
+					</array>
+					<key>232</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>unnamed instance</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>SymbolOid</string>
+							<key>objectValue</key>
+							<string>24</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AutoresizingMask</string>
+							<key>objectValue</key>
+							<string>15</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>75px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>1024px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>6</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>1259px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Symbol</string>
+						</dict>
+					</array>
+				</dict>
+				<key>isPersistentSymbol</key>
+				<false/>
+				<key>name</key>
+				<string>Scene Symbol 5</string>
+				<key>oid</key>
+				<string>226</string>
+				<key>onSceneDragActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyDownActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyPressActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyUpActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneLoadActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeDownActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array>
+						<dict>
+							<key>duration</key>
+							<real>1.1000000000000001</real>
+							<key>sceneOid</key>
+							<string>34</string>
+							<key>transition</key>
+							<integer>7</integer>
+							<key>type</key>
+							<integer>1</integer>
+						</dict>
+					</array>
+				</dict>
+				<key>onSceneSwipeLeftActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeRightActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
 				</dict>
 				<key>onSceneSwipeUpActionHandler</key>
 				<dict>
