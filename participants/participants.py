@@ -29,7 +29,6 @@ participants = [
 	["Silvestri", "Alessandra", "Leiden University"],
 	["Stairs", "Ingrid", "University of British Columbia"],
 	["So", "Chukman", "TRIUMF"],
-	["Sushkov", "Sergey", "Kazan Federal University"],
 	["Trodden", "Mark", "University of Pennsylvania"],
 	["Vachaspati", "Tanmay", "Arizona State University"],
 	["Wise", "Mark", "Caltech"],
@@ -111,6 +110,8 @@ with open('participants.csv', 'rU') as csvfile:
 		affiliation = re.sub(r"[\(\)]+", '', affiliation)
 		
 		# override supplied names
+		if last == "Sushkov": continue
+		
 		if last == "de Oliveira":
 			first = "Henrique de"
 			last = "Oliveira"
