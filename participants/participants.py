@@ -45,6 +45,7 @@ loc = ["Galvez", "Miller", "Pogosian", "Zucca"]
 table = []
 
 def mangle(affiliation):
+	affiliation = re.sub(r"^(The\s+)", '', affiliation)
 	affiliation = re.sub(r"Royal Astronomical Society", 'RASC', affiliation)
 	affiliation = re.sub(r"University of British Columbia", 'UBC', affiliation)
 	affiliation = re.sub(r"Simon Fraser (U|u)niversity", 'SFU', affiliation)
@@ -53,8 +54,10 @@ def mangle(affiliation):
 	affiliation = re.sub(r"California Institut?e of Technology", 'Caltech', affiliation)
 	affiliation = re.sub(r"California State University", 'CSU', affiliation)
 	affiliation = re.sub(r"University of California(,|\s+at)?", 'UC', affiliation)
-	affiliation = re.sub(r"(The\s+)?University of Texas(,|\s+at)?", 'UT', affiliation)
+	affiliation = re.sub(r"Rochester Institute of Technology", 'RIT', affiliation)
+	affiliation = re.sub(r"University of Texas(,|\s+at)?", 'UT', affiliation)
 	affiliation = re.sub(r"University of Pennsylvania", 'UPenn', affiliation)
+	affiliation = re.sub(r"Pennsylvania State University", 'PennState', affiliation)
 	affiliation = re.sub(r"Case Western Reserve", 'Case Western', affiliation)
 	affiliation = re.sub(r"Perimeter.*", 'Perimeter', affiliation)
 	affiliation = re.sub(r"ONERA, France", 'ONERA', affiliation)
@@ -64,15 +67,24 @@ def mangle(affiliation):
 	affiliation = re.sub(r"National Astronomical Observatory of Japan", 'NAOJ', affiliation)
 	affiliation = re.sub(r"Institute of Physics, ASCR, Prague", 'Prague', affiliation)
 	affiliation = re.sub(r"Max Planck Institute", 'MPI', affiliation)
+	affiliation = re.sub(r"Albert Einstein Institute", 'AEI', affiliation)
+	affiliation = re.sub(r"Lorentz Institute\s*(,|-)\s*Leiden.*", 'Leiden University', affiliation)
+	affiliation = re.sub(r"Universidad Autónoma de Madrid", 'UAM', affiliation)
+	affiliation = re.sub(r"National Centre for Nuclear Research", 'NCNR', affiliation)
 	affiliation = re.sub(r"Lebedev.*", 'Lebedev', affiliation)
 	affiliation = re.sub(r".*\(IKI\).*", 'IKI', affiliation)
 	affiliation = re.sub(r"ITA - Aeronautics Institute of Technology", 'ITA', affiliation)
 	affiliation = re.sub(r"Universidad Austral de Chile", 'UACh', affiliation)
 	affiliation = re.sub(r"American University of Afghanistan", 'AUAF', affiliation)
 	affiliation = re.sub(r"Prince Mohammad Bin Fahd University", 'PMU', affiliation)
+	affiliation = re.sub(r"Universidade do Estado do Rio de Janeiro", 'UERJ', affiliation)
+	affiliation = re.sub(r"Chinese University of Hong Kong", 'CUHK', affiliation)
+	affiliation = re.sub(r"Thapar Institute of Engineering (&|and) Technology", 'TIET', affiliation)
 	affiliation = re.sub(r"\s*Universit(y|é)(\s+(of|at|de))?(\s+(the))?\s*", '', affiliation)
 	affiliation = re.sub(r"\s*Observatory(\s+(of|at|de))?(\s+(the))?\s*", '', affiliation)
 	affiliation = re.sub(r",?\s*Dep(ar)?t(ment)?\s+of\s+.*", '', affiliation)
+	affiliation = re.sub(r",\s*", ', ', affiliation)
+	affiliation = re.sub(r"\s*/\s*", '/', affiliation)
 	return affiliation
 
 def grouper(n, iterable, padvalue=None):
@@ -98,6 +110,19 @@ with open('participants.csv', 'rU') as csvfile:
 		if len(affiliation) == 0: affiliation = row[16]
 		affiliation = re.sub(r"[\(\)]+", '', affiliation)
 		
+		# override supplied names
+		if last == "de Oliveira":
+			first = "Henrique de"
+			last = "Oliveira"
+		
+		if last == "sharma":
+			first = "Anushrut"
+			last = "Sharma"
+		
+		if last == "sotani":
+			first = "Hajime"
+			last = "Sotani"
+		
 		participants.append([last,first,affiliation])
 
 participants.sort(key = lambda p: p[0])
@@ -106,21 +131,15 @@ for p in itertools.groupby(participants):
 	last,first,affiliation = p[0]
 	
 	# fix stuff for people who cannot spell
-	if last == "Lebed": affiliation = "University of Arizona"
-	if last == "Afshordi": affiliation = "Perimeter Institute"
-	if last == "Halenka": affiliation = "University of Michigan"
-	if last == "Steer": affiliation = "APC, Paris"
-	if last == "Saida": affiliation = "Daido University"
-	if last == "Tanahashi": affiliation = "Osaka University"
+	if last == "Abedi": affiliation = "Albert Einstein Institute"
+	if last == "Cardenas-Avendano": affiliation = "Montana State University"
 	if last == "Kunstatter": affiliation = "University of Winnipeg"
-	if last == "Rapetti": affiliation = "Boulder/NASA Ames"
-	if last == "Deffayet": affiliation = "CNRS"
-	if last == "Yamashita": affiliation = "Yukawa Institute for Theoretical Physics"
-	if last == "JULIÉ": last = "Julié"
-	if last == "SACHDEVA":
-		first = "Tarun";last = "Sachdeva"
-		affiliation = "Thapar University"
-	if last == "de Rham": continue	
+	if last == "Robbins": affiliation = "University of Waterloo/Perimeter Institute"
+	if last == "Tamosiunas": affiliation = "ICG - Portsmouth"
+	if last == "Urban": affiliation = "CEICO, Prague"
+	if last == "Yun-Long": affiliation = "YITP, Kyoto University"
+	if last == "Oliveira": affiliation = "Universidade do Estado do Rio de Janeiro"
+	if last == "Sotani": affiliation = "National Astronomical Observatory of Japan"
 	
 	# abbreviate name if it is too long
 	if (len(first+last) > 24):
