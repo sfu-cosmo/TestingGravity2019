@@ -1,0 +1,79 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+% use the corresponding paper size for your ticket definition
+\documentclass[letterpaper,12pt]{article}
+
+%%% Load fonts and graphics
+\usepackage{mathspec} % loads fontspec as well
+\usepackage{xcolor,xifthen,xltxtra,xunicode,graphicx,amstext}
+\definecolor{RegentGrey}{HTML}{83939D}
+\usepackage[pdfauthor={Testing Gravity 2019},pdftitle={Rapid Talks},colorlinks,urlcolor={RegentGrey}]{hyperref}
+\defaultfontfeatures{Scale=MatchLowercase,Ligatures=TeX}
+
+%%% Set paper size and margins
+\usepackage[letterpaper]{anysize}       % Set paper size and margins
+\marginsize{0.5in}{0.5in}{0.5in}{0.5in}
+\setlength{\headheight}{32pt}
+\setlength{\headsep}{12pt}
+\flushbottom
+
+%%% Customize layout
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\pagestyle{fancy}
+\lhead{\fontspec{Cinzel}\huge Testing Gravity 2019}\chead{}
+\rhead{\fontspec{Lato Light Italic}\Large Rapid Talks Session \#1}
+\lfoot{}\cfoot{}\rfoot{}
+%\renewcommand{\headrulewidth}{1pt}
+%\renewcommand{\footrulewidth}{1pt}
+
+
+\setmathsfont(Digits,Latin,Greek)[Scale=MatchLowercase]{Lato Light}
+\setmainfont[BoldFont={Lato},BoldItalicFont={Lato Italic}]{Lato Light}
+\setsansfont{Lato}
+\setmonofont{Jura}
+
+\newcommand{\slot}[1]{\item[\fontspec{Lato} #1]}
+\newcommand{\talk}[2]{{\fontspec{Lato Bold} #1,} {\fontspec{Lato Italic} #2}}
+
+
+\begin{document}
+\begin{enumerate}
+\setlength\itemsep{0pt}
+%\setlength\itemindent{36pt}
+
+\item \talk{Julien Grain, (IAS Orsay-France)}{Phenomenological aspects of loop quantum cosmology}
+
+\item \talk{Ka-Wai Chung (Chinese University of Hong Kong)}{A phenomenological inclusion of alternative dispersion relations to the Teukolsky equation and its application to bounding the graviton mass with gravitational-wave measurements}
+
+\item \talk{Nils A. Nilsson (National Centre for Nuclear Research, Poland)}{Lorentz breaking cosmological models}
+
+\item \talk{Benjamin Elder (University of Nottingham)}{Exact symmetron screening in 2 dimensions}
+
+\item \talk{Omar Contigiani (Leiden University)}{The splashback radius in symmetron gravity}
+
+\item \talk{Michael Desrochers (University of British Columbia)}{A novel prescription for Dark Energy: Vacuum Energy from tunnelling between degenerate states}
+
+\item \talk{A. Miguel Holgado (University of Illinois at Urbana-Champaign)}{Gravitational waves from close binaries with time-varying masses}
+
+\item \talk{Myles Mitchell (ICC, Durham University)}{Modelling the concentration of dark matter haloes in modified gravity}
+
+\item \talk{Jose Mar\'\i a Ezquiaga (Universidad Aut\'onoma de Madrid)}{Testing gravity with standard sirens}
+
+\item \talk{Sina Bahrami (Pennsylvania State University)}{Incorporating dark matter in the effective field theory of dark energy}	
+
+\item \talk{Nicholas Loutrel (Princeton University)}{Gravitational waves from spin precessing binaries in dynamical Chern-Simons gravity}
+
+\item \talk{Zhen Pan (Perimeter Institute)}{testing gravity on large scale using galaxy surveys and KSZ signal}
+
+\item \talk{James Mertens (York University/PI)}{Testing general relativity using kinetic Sunyaev Zel'dovich tomography}
+
+\item \talk{Macarena Lagos (KICP, University of Chicago)}{Standard sirens with a running Planck mass}
+
+\item \talk{Brad Cownden (University of Manitoba)}{Modelling the gravitational collapse of scalar fields in anti-de Sitter space}
+
+\item \talk{Nathan Evetts (University of British Columbia)}{Magnetometry techniques for gravitational measurements of antihydrogen with ALPHA-g}
+
+\end{enumerate}
+\end{document}

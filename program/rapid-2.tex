@@ -1,0 +1,77 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+% use the corresponding paper size for your ticket definition
+\documentclass[letterpaper,12pt]{article}
+
+%%% Load fonts and graphics
+\usepackage{mathspec} % loads fontspec as well
+\usepackage{xcolor,xifthen,xltxtra,xunicode,graphicx,amstext}
+\definecolor{RegentGrey}{HTML}{83939D}
+\usepackage[pdfauthor={Testing Gravity 2019},pdftitle={Rapid Talks},colorlinks,urlcolor={RegentGrey}]{hyperref}
+\defaultfontfeatures{Scale=MatchLowercase,Ligatures=TeX}
+
+%%% Set paper size and margins
+\usepackage[letterpaper]{anysize}       % Set paper size and margins
+\marginsize{0.5in}{0.5in}{0.5in}{0.5in}
+\setlength{\headheight}{32pt}
+\setlength{\headsep}{12pt}
+\flushbottom
+
+%%% Customize layout
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\pagestyle{fancy}
+\lhead{\fontspec{Cinzel}\huge Testing Gravity 2019}\chead{}
+\rhead{\fontspec{Lato Light Italic}\Large Rapid Talks Session \#2}
+\lfoot{}\cfoot{}\rfoot{}
+%\renewcommand{\headrulewidth}{1pt}
+%\renewcommand{\footrulewidth}{1pt}
+
+
+\setmathsfont(Digits,Latin,Greek)[Scale=MatchLowercase]{Lato Light}
+\setmainfont[BoldFont={Lato},BoldItalicFont={Lato Italic}]{Lato Light}
+\setsansfont{Lato}
+\setmonofont{Jura}
+
+\newcommand{\slot}[1]{\item[\fontspec{Lato} #1]}
+\newcommand{\talk}[2]{{\fontspec{Lato Bold} #1,} {\fontspec{Lato Italic} #2}}
+
+
+\begin{document}
+\begin{enumerate}
+\setlength\itemsep{0pt}
+%\setlength\itemindent{36pt}
+
+\item \talk{Jahed Abedi (Albert Einstein Institute)}{Echoes from the abyss: A highly spinning black hole remnant for the binary neutron star merger GW170817}
+
+\item \talk{Matteo Braglia (University of Bologna)}{Isocurvature initial conditions in scalar-tensor modified gravity theories}
+
+\item \talk{Alejandro Cardenas-Avendano (Montana State University)}{Finding order in a sea of chaos}
+
+\item \talk{Cesar Hernandez Aguayo (ICC, Durham University)}{Large scale redshift space distortions in modified gravity}
+
+\item \talk{Demet Kirmizibayrak}{Probing black holes through reverberation mapping}
+
+\item \talk{Simone Peirone (Lorentz Institute, Leiden University)}{Large scale phenomenology of viable Horndeski models}
+
+\item \talk{Anushrut Sharma (University of Pennsylvania)}{The equation of state of dark matter superfluids}
+
+\item \talk{Qingwen Wang (Perimeter Institute)}{Black hole echology}
+
+\item \talk{Cisco Gooding (Nottingham)}{Quantum gravity by analogy}
+
+\item \talk{Manu Paranjape (Universit\'{e} de Montr\'{e}al)}{How to measure the speed of gravity}
+
+\item \talk{Elizabeth Loggia (University of British Columbia)}{A gravity-like slow force as an alternative to dark matter}
+
+\item \talk{Zhang Yun-Long (Yukawa Institute for Theoretical Physics, Kyoto)}{Holographic model of the dark fluid in late time universe}
+
+\item \talk{Kellie Ault-O'Neal (Embry-Riddle Aeronautical University)}{Testing Lorentz symmetry with gravitational waves}
+
+\item \talk{Henrique de Oliveira (State University of Rio de Janeiro)}{The affine-null formulation of the gravitational equations: spherical critical collapse}
+
+\item \talk{Mario Ballardini (University of the Western Cape)}{Testing extended Jordan-Brans-Dicke theories with cosmological observations}
+
+\end{enumerate}
+\end{document}
