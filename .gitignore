@@ -3,6 +3,11 @@ artwork/sources/*
 backups/*
 snippets/*
 
+# ignore posted talks
+html/school/*
+html/talks/*
+html/rapid/*
+
 # ignore map data
 *.cpg
 *.dbf
